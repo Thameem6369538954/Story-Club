@@ -1,0 +1,210 @@
+.st-therdpage-main{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./Hdrbg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.therdpage-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.therdpage-container img{
+    position: absolute;
+    width: 500px;
+    margin-left: 280%;
+}
+.txt-side-therdpage h1{
+ margin-top: -20%;
+    font-size: 60px;
+    margin-left: 10%;
+}
+.txt-side-therdpage p{
+    margin-top: 5%;
+    font-size: 30px;
+    margin-left: 30%;
+}
+.txt-side-therdpage h6{
+    margin-top: -10%;
+    font-size: 16px;
+    margin-left: 10%;
+}
+.custum-file-upload {
+    margin-top: 10px;
+    margin-left:20%;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed black;
+    background-color: #faf7eb;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 48px 35px -48px #e8e8e8;
+    -webkit-box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
+  }
+  
+  .custum-file-upload .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custum-file-upload .icon svg {
+    height: 80px;
+    fill: #e8e8e8;
+  }
+  
+  .custum-file-upload .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custum-file-upload .text span {
+    font-weight: 400;
+    color: black;
+  }
+  
+  .custum-file-upload input {
+    display: none;
+  }
+  @media screen and (max-width:600px){
+    .st-therdpage-main{
+      height: 170vh;
+      width: 100%;
+      background-image: url('./Hdrbg.jpg');
+      background-position: center;
+      background-size: cover;
+  }
+    .txt-side-therdpage h1{
+      margin-top: -10%;
+      margin-bottom: 30px;
+         font-size: 50px;
+         margin-left: 1%;
+     }
+     .txt-side-therdpage p{
+         margin-top: 50px;
+         font-size: 30px;
+         margin-left: 10%;
+         margin-bottom: 20px;
+     }
+     .txt-side-therdpage h6{
+         margin-top: -10%;
+         font-size: 16px;
+         margin-left: 1%;
+     }
+    .therdpage-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 8%;
+  }
+  .therdpage-container img{
+ margin-top: 10%;
+    position: relative;
+    width: 500px;
+    margin-left: -4%;
+}
+.txt-side-therdpage{
+  margin-top: 30%;
+}
+.custum-file-upload {
+  margin-top: 10px;
+  margin-left:9%;
+  height: 100px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed black;
+  background-color: #faf7eb;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 48px 35px -48px #e8e8e8;
+  -webkit-box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
+}
+  }
+  @media (min-width: 600px) and (max-width: 1024px){
+    .st-therdpage-main{
+      height: 170vh;
+      width: 100%;
+      background-image: url('./Hdrbg.jpg');
+      background-position: center;
+      background-size: cover;
+  }
+  .txt-side-therdpage {
+    width: 100%;
+  }
+    .txt-side-therdpage h1{
+      margin-top: -10%;
+      margin-bottom: 30px;
+         font-size: 50px;
+         margin-left: 5%;
+     }
+     .txt-side-therdpage p{
+         margin-top: 100px;
+         font-size: 30px;
+         margin-left: 10%;
+         margin-bottom: 20px;
+     }
+     .txt-side-therdpage h6{
+         margin-top: -10%;
+         font-size: 16px;
+         margin-left: 1%;
+     }
+    .therdpage-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 8%;
+  }
+  .therdpage-container img{
+ margin-top: 10%;
+    position: relative;
+    width: 500px;
+    margin-left: -4%;
+}
+.txt-side-therdpage{
+  margin-top: 30%;
+}
+.custum-file-upload {
+  margin-top: 10px;
+  margin-left:9%;
+  height: 100px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed black;
+  background-color: #faf7eb;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 48px 35px -48px #e8e8e8;
+  -webkit-box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
+}
+  }

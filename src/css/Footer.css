@@ -1,0 +1,65 @@
+.footer{
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=010101&c2=373836&gt=l&gd=dbb
+*/
+background: #010101;
+background: linear-gradient(0deg, #010101, #373836);
+width: 100%;
+height: 320px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.footer img{
+    width: 300px;
+}
+.footer p{
+    text-align: center;
+    color: white;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 1rem;
+    font-size: 25px;
+}
+.x,.fbf,.inst,.link{
+    height: 40px;
+    width: 40px;
+    background-color: #d5645c;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.footer-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 2rem;
+}
+.footer-list li{
+    color: white;
+}
+.input-container{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    border: 1px solid silver;
+    border-radius: 20px;
+}
+.input-container span{
+    color:white;
+    background-color: #d5645c;
+    padding: 10px;
+    border-radius: 20px;
+}
+.input-container input::placeholder{
+    text-align: center;
+    color: gray;
+}

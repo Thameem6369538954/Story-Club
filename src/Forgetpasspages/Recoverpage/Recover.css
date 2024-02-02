@@ -1,0 +1,80 @@
+.recover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-image: url('../../Images/Hdrbg.jpg');
+    background-position: center;
+    background-size: cover;
+   width: 100%;
+   height: 100vh;
+}
+.recover img{
+    width: 500px;
+    margin-left: 33%;
+    
+}
+.recover h1{
+    font-size: 30px;
+
+}
+.recover p{
+    font-size: 20px;
+    margin: 20px;
+}
+.recover button{
+    background-color: antiquewhite;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 1%;
+}
+.inputs-ForgetRecover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid  black;
+    padding: 5px;
+    border-radius: 30px;
+    width: 40%;
+    margin-bottom: 10px;
+    background-color: #f6f4ed;
+    margin-left: 30%;
+    margin-top: 30px;
+    
+}
+.forget-text {
+    display: flex;
+align-items: center;
+justify-content: space-around;
+/* margin-left: 30%; */
+margin-bottom: 40px;
+}
+.inputs-ForgetRecover input{
+    width: 110%;
+  background-color: transparent;
+  border: transparent;   
+}
+@media screen and (max-width:600px){
+    .recover img{
+        width: 500px;
+        margin-left: 3%;
+        
+    }
+    .inputs-ForgetRecover{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border:1px solid  black;
+        padding: 10px;
+        border-radius: 30px;
+        width: 40%;
+        margin-bottom: 10px;
+        background-color: #f6f4ed;
+        margin-left: 30%;
+        margin-top: 30px;
+        
+    }
+}

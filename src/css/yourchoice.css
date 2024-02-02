@@ -1,0 +1,72 @@
+.yourchoice-main{
+    background: url('../Images/Bgimage.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.yourchoice-main h1{
+    position: absolute;
+    margin-top: 40px;
+    font-size: 60px;
+    margin-left: 30%;
+    font-family: 'Aclonica', sans-serif;
+}
+.video-comics {
+   position: relative;
+   margin-left: 30px;
+}
+.video-comics img{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -45%;
+    width: 100px;
+}
+.Audio-comic h1{
+   margin-left: 1120px;
+   color: white;
+   font-size: 30px;
+}
+.video-comics h1{
+    margin-left: 120px;
+    color: white;
+    font-size: 30px;
+    
+ }
+ .line{
+    position: absolute;
+    margin-top: 180px;
+    height: 200px;
+    margin-left: 650px;
+    border-right:  3px solid white;
+ }
+.Audio-comic img{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -45%;
+    width: 100px;
+}
+.yourchoice-main p{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 19%;
+    color: white;
+}
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20%;
+}
+.category,.Audio-comic{
+    position: absolute;
+    margin-top: 15%;   
+}
+.Audio-comic button{
+    position: absolute;
+    margin-left: 30%;
+    width: 100px;
+    padding: 10px;
+    background: rgb(252,240,231);
+    background: linear-gradient(354deg, rgba(252,240,231,1) 35%, rgba(255,255,255,1) 100%);
+}

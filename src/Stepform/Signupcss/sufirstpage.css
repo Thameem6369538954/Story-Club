@@ -1,0 +1,107 @@
+.Signup-continer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+.Signup-continer h1{
+    font-size: 70px;
+    font-family: 'PT Serif Caption', serif;
+    margin: 20px;
+}
+.Signup-continer p{
+    font-size: 30px;
+    font-family: 'Abel', sans-serif;
+    margin-bottom: 20px;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid  black;
+    padding: 5px;
+    border-radius: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #f6f4ed;
+    
+}
+.inputs input{
+    width: 110%;
+  background-color: transparent;
+  border: transparent;   
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+}
+.icons-for-signup{
+    color: #DC6E66;
+    background-color: #f6f4ed;
+    border-radius: 50%;
+    z-index: 6;
+
+    
+}
+.google-athentication{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.fb,.ggl{
+    background-color: #F5C365A3;
+    font-size: 30px;
+    height: 50px;
+    width: 40px;
+    border-radius: 20px;
+
+}
+.contine-btn{
+    background-color: red;
+}
+.agree-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.agree-box p{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.agree-box input{
+    width: 30px;
+}
+
+
+@media screen and (max-width:600px){
+    .Signup-continer h1{
+        font-size: 40px;
+        font-family: 'PT Serif Caption', serif;
+        margin: 20px;
+    }
+    .inputs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border:1px solid  black;
+        padding: 10px;
+        border-radius: 30px;
+        width: 100%;
+        margin-bottom: 10px;
+        background-color: #f6f4ed;
+        
+    }
+    .forget-text {
+        display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -2%;
+    font-size: 20px;
+    margin-bottom: 40px;
+    }
+}

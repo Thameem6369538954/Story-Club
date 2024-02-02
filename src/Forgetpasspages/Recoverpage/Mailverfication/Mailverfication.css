@@ -1,0 +1,47 @@
+.mailverfication img{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: 35%;
+ width: 500px;
+}
+.mailverfication {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction:column;
+    position: relative;
+    background-image: url('../../../Images/Hdrbg.jpg');
+    background-position: center;
+    background-size: cover;
+   width: 100%;
+   height: 100vh;
+}
+.mailverfication h1{
+    font-size: 30px;
+}
+.mailverfication p{
+    font-size: 16px;
+    margin: 30px;
+}
+.inputs-Forget-otp{
+    margin: 30px;
+}
+.mailverfication button{
+    background-color: antiquewhite;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 1%;
+}
+@media screen and (max-width:600px){
+    .mailverfication img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+        width: 500px;
+       }
+}
