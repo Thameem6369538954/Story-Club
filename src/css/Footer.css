@@ -50,7 +50,7 @@ justify-content: space-around;
     align-items: center;
     justify-content: space-between;
     width: 70%;
-    border: 1px solid silver;
+    /* border: 1px solid silver; */
     border-radius: 20px;
 }
 .input-container span{

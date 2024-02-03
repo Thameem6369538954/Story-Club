@@ -21,7 +21,7 @@
   }
   .navbar-ul li{
     list-style: none;
-    margin-left: 5%;
+   
     font-weight: 400;
   }
 .story-tell-main p{
@@ -84,40 +84,43 @@
         margin-top: -110px;
     }
     .navbar-ul {
-        /* position: absolute; */
+        
         display: flex;
         
         background-color: #f5c365;
-        width: 90%;
-        height: 80px;
-        padding: 10px;
-        margin-top: -85%;
-        margin-left: -3%;
-        gap: 1rem;
+        width: 95%;
+        height: 50px;
+        padding: 5px;
+        margin-top: -155%;
       }
       .navbar-ul li{
-        list-style: none;
+        gap: 0.2em;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 8px;
+      
+       
+      }
+      .Connecting-btns {
+        margin-top: 150px;
       }
       .Connecting-btns button{
         width: 201px;
-        margin-top: 220px;
+        margin-top: 20px;
         margin-left: 10px;
-        padding: 20px;
+        padding: 10px;
         background-color: #eed4c5;
         border: 1px solid black;
         border-radius: 10px;
         font-size:20px;
     }
     .connect-images img:nth-child(1){
-        margin-top:100%;
+        margin-top:150%;
         margin-left: -50%;
       
        }
        .connect-images img:nth-child(2){
-        margin-top: 80%;
-        margin-left: 7%;
+        margin-top: 130%;
+        margin-left: -10%;
        }
        .connect-images img{
         position: absolute;
@@ -126,14 +129,14 @@
        }
        .story-tell-main h1{
         position: absolute;
-        margin-top:-35%;
+        margin-top:-85%;
         font-size: 30px;
         font-family: 'PT Serif Caption', serif;
     }
     .story-tell-main p{
         font-size: 30px;
         font-family: 'Abel', sans-serif;
-        margin: 10px;
+        margin-top: -30px;
     }
    }
    @media (min-width: 600px) and (max-width: 1024px){

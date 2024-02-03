@@ -110,7 +110,7 @@ nav button{
   .nav-icons{
     display: block;
     z-index: 3;
-    padding: 30px;
+    margin: 10px;
   }
   .close{
     position: absolute;
@@ -160,12 +160,55 @@ nav button{
 }
 
 @media screen and (max-width:600px){
+  
+.input {
+  width: 10px;
+  height: 3px;
+  border-radius: 10px;
+  border: none;
+  
+  outline: none;
+  padding: 18px 16px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  z-index: 1;
+
+}
+
+.input::placeholder {
+  color: transparent;
+}
+
+.input:focus::placeholder {
+  color: rgb(131, 128, 128);
+}
+.input:focus,.input:not(:placeholder-shown) {
+  background-color: #fff;
+  border: 1px solid #dc6e66;
+  width: 90px;
+  cursor: none;
+  padding: 18px 16px 18px 40px;
+}
+.icon {
+  position: absolute;
+  left: 0;
+  top: 5;
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  z-index: -1;
+  fill:#dc6e66;
+  border: 1px solid #dc6e66;
+}
+
   nav{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 3%;
-    margin-left: 60%;
+    margin-left: 46%;
 }
 .navbar-main img{
   width: 100px;
@@ -181,8 +224,10 @@ nav button{
  
 }
 .navbar-main button{
-  width: 100px;
-  margin-left: 10px;
+  width: 70px;
+  height: 25px;
+  margin-left: 1px;
+  font-size: 8px;
 }
 .close{
   position: absolute;
@@ -194,9 +239,9 @@ nav button{
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 10px;
-  height: 120vh;
-  width: 200%;
+  top: 1px;
+  height: 90vh;
+  width: 160%;
   background-image: url('../Images//Navimage.jpg');
   background-position: center;
   background-size: cover;

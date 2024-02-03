@@ -104,19 +104,19 @@
 
 @media screen and (max-width:600px) {
     .header h1{
-        font-size: 40px;
-        margin-top: 150px;
-        margin-left: 10%;
+        font-size: 30px;
+        margin-top: 120px;
+        margin-left: 1%;
         color: black;
-        position: absolute;
+        /* position: absolute; */
         text-align: center;
         font-family: 'PT Serif Caption', serif;
         letter-spacing: 0.-1cm;
     }
     .header p{
         position: absolute;
-        margin-top: 290px;
-        margin-left: 25%;
+        margin-top: 230px;
+        margin-left: 10%;
         font-family: 'Abel', sans-serif;
         font-size: 25px;
     }
@@ -126,8 +126,8 @@
         outline: none;
         border: none;
         background-color:#eed4c5;
-       margin-top: 240px;
-       margin-left: -45%;
+       margin-top: 200px;
+       margin-left: -65%;
         position: relative;
         letter-spacing: 1px;
         border-radius: 20px;
@@ -135,18 +135,30 @@
        height: 40px;
        }
        .play-btn{
-        margin-left: 60px;
-        margin-top: 240px;
+        margin-left: 5px;
+        margin-top: 200px;
         z-index: 1;
         position: absolute;
+    }
+    .three-btn{
+        position: absolute;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 30%;
+          margin-left:40%;
+      }
+    .btn-1,.btn-2{
+        font-size: 15px;
     }
     .two-header-btns{
         display: flex;
         flex-direction: row;
          gap: 5rem;
         position: absolute;
-        margin-top: 110%;
-        margin-left: 13%;
+        margin-top: 130%;
+        margin-left: 19%;
+        font-size: 12px;
        }
 }
 

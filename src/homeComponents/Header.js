@@ -17,7 +17,7 @@ const Header = () => {
             <p data-aos="fade-up" data-aos-easing="linear"
       >Everybody has a Story to tell</p>
         </div>
-        <div className="three-btn" data-aos="zoom-in-up"  data-aos-duration="1000">
+        <div className="three-btn">
             <button>More About Us</button>
             <FaPlay className='play-btn'/>
         </div>
