@@ -107,6 +107,17 @@ font-family: 'PT Serif Caption', serif;
         flex-direction: column-reverse;
 
     }
+    .box p{
+
+        background-color: #f4dcd1;
+        border-radius: 40% 60% 14% 86% / 53% 41% 59% 47% ;
+        height: 30%;
+        margin-top: 10px;
+        color:black;
+        font-size: 10px;
+        font-family: 'Abel', sans-serif;
+    
+    }
     .sta-tragentropp-box{
         width: 80%;
         display: flex;
@@ -139,16 +150,17 @@ font-family: 'PT Serif Caption', serif;
         
         }
         .box{
-            height: 150px;
-            width: 120px;
+            height: 60px;
+            width: 80px;
             border: 2px solid  #f4dcd1;
         }
         .headeing{
-            height: 160vh;
+            height: 100vh;
             width: 100%;
             background-image: url('./Hdrbg.jpg');
             background-position: center;
             background-size: cover;
+            position: relative;
         }
 }
 

@@ -110,7 +110,7 @@ nav button{
   .nav-icons{
     display: block;
     z-index: 3;
-    margin: 10px;
+    margin-left: 25px;
   }
   .close{
     position: absolute;
