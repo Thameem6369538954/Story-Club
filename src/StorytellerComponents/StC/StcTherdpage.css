@@ -81,7 +81,7 @@ box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
   }
   @media screen and (max-width:600px){
     .st-therdpage-main{
-      height: 170vh;
+      height: 140vh;
       width: 100%;
       background-image: url('./Hdrbg.jpg');
       background-position: center;
@@ -90,19 +90,22 @@ box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
     .txt-side-therdpage h1{
       margin-top: -10%;
       margin-bottom: 30px;
-         font-size: 50px;
-         margin-left: 1%;
+         font-size: 30px;
+        
+     }
+     .therd-btns{
+      margin-left: 70px;
      }
      .txt-side-therdpage p{
          margin-top: 50px;
-         font-size: 30px;
-         margin-left: 10%;
+         font-size: 16px;
+         margin-left: -10%;
          margin-bottom: 20px;
      }
      .txt-side-therdpage h6{
          margin-top: -10%;
-         font-size: 16px;
-         margin-left: 1%;
+         font-size: 12px;
+         margin-left: -21%;
      }
     .therdpage-container{
       display: flex;
@@ -112,7 +115,7 @@ box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
       margin-top: 8%;
   }
   .therdpage-container img{
- margin-top: 10%;
+ margin-top: -10%;
     position: relative;
     width: 500px;
     margin-left: -4%;
@@ -124,7 +127,7 @@ box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
   margin-top: 10px;
   margin-left:9%;
   height: 100px;
-  width: 400px;
+  width: 230px;
   display: flex;
   flex-direction: column;
   align-items: space-between;

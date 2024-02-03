@@ -105,7 +105,11 @@ font-family: 'PT Serif Caption', serif;
     .sta-full-cantainer{
         display: flex;
         flex-direction: column-reverse;
-
+       
+    }
+    .st-txt-leftbox input::placeholder{
+        text-align: center;
+        font-size: 16px;
     }
     .box p{
 
@@ -122,7 +126,7 @@ font-family: 'PT Serif Caption', serif;
         width: 80%;
         display: flex;
         margin-left: 15%;
-        margin-top: 15%;
+        margin-top: 25%;
     }
     .st-txt-leftbox p{
         font-size: 25px;
@@ -134,7 +138,7 @@ font-family: 'PT Serif Caption', serif;
     .st-txt-leftbox{
         width: 60%;
         height: 50%;
-        margin-top: 80px;
+        margin-top: 10px;
     }
     .st-txt-leftbox h2{
         font-size: 30px;
@@ -155,12 +159,21 @@ font-family: 'PT Serif Caption', serif;
             border: 2px solid  #f4dcd1;
         }
         .headeing{
-            height: 100vh;
+            height: 155vh;
             width: 100%;
             background-image: url('./Hdrbg.jpg');
             background-position: center;
             background-size: cover;
             position: relative;
+        }
+        .tick{
+            background-color: #f4dcd1;
+            font-size: 30px;
+            color: black;
+            border-radius: 50px;
+            margin-top: 10px;
+            margin-left: 10px;
+            border: 2px solid black;
         }
 }
 

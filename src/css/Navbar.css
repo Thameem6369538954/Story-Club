@@ -143,7 +143,7 @@ nav button{
   }
   .menu{
     background-color: #dc6e66;
-    font-size: 20px;
+    font-size: 30px;
    
     color: white;
     border-radius: 10px;
@@ -225,7 +225,8 @@ nav button{
 }
 .navbar-main button{
   width: 70px;
-  height: 25px;
+  padding-bottom: 1px;
+  height: 35px;
   margin-left: 1px;
   font-size: 8px;
 }
@@ -261,8 +262,7 @@ margin-top: 10px;
 }
 .menu{
   background-color: #dc6e66;
-  font-size: 20px;
- 
+  font-size: 30px;
   color: white;
   border-radius: 10px;
   

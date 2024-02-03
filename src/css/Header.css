@@ -141,15 +141,15 @@
         position: absolute;
     }
     .three-btn{
-        position: absolute;
+       
           display: flex;
           align-items: center;
           justify-content: center;
           margin-top: 30%;
-          margin-left:40%;
+          margin-left:35%;
       }
     .btn-1,.btn-2{
-        font-size: 15px;
+        font-size: 18px;
     }
     .two-header-btns{
         display: flex;

@@ -57,6 +57,7 @@
 .couta {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-left: 0px;
     margin-top: 30px;
     gap: 5rem;
@@ -90,15 +91,15 @@
     .couta {
         display: flex;
         justify-content: center;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-left: -30px;
        
     }
     .left-side-secondst h5{
         color: black;
         font-size: 20px;
-        margin-top: -10%;
         margin-bottom: 20px;
+        margin-top: -28%;
     }
     .left-side-secondst p {
         position: absolute;
@@ -108,10 +109,10 @@
     
     .left-side-secondst h2 {
         position: absolute;
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
-        margin-left: -10px;
-        margin-top: -20%;
+        margin-left: -20px;
+        margin-top: -40%;
         font-family: 'PT Serif Caption', serif;
     }
     
@@ -122,10 +123,10 @@
     position: absolute;
     }
     .stsecond-main-conatainer img {
-        width: 350px;
+        width: 250px;
         height: 50%;
         margin-top: 60px;
-        margin-left: 20%;
+        margin-left: 10%;
     }
     .st-two-btns button {
         background-color: #f4dcd1;
@@ -137,12 +138,12 @@
         border: none;
         border-radius: 30px;
         cursor: pointer;
-        margin-left: -60%;
+        margin-left: -40%;
     }
     .left-side-secondst input {
         margin-top: 60px;
-        margin-left: -20;
-        width: 350px;
+        margin-left: -20%;
+        width: 280px;
         padding: 50px;
         border-radius: 10px;
         background-color: #faf7eb;

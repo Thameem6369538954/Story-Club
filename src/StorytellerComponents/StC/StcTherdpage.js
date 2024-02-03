@@ -31,10 +31,13 @@ const StcTherdpage = () => {
                 <TiTick className='tick'/>
 
                 </div>
+                <div className="therd-btns">
+
                 <div className="st-two-btns">
                <NavLink to='/Stsecondpage'><button>Go Back</button></NavLink> 
                <NavLink to='/Stgreeting'><button>Next</button></NavLink> 
 
+                </div>
                 </div>
                 </div>
                 <img src={World} alt="" />
