@@ -18,7 +18,7 @@ const Header = () => {
       >Everybody has a Story to tell</p>
         </div>
         <div className="three-btn">
-            <button>More About Us</button>
+           <NavLink to='/Hiring'><button>More About Us</button></NavLink> 
             <FaPlay className='play-btn'/>
         </div>
         
