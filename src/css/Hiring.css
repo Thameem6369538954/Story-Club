@@ -1,0 +1,219 @@
+.full-hiring{
+  position: relative;
+  background-image: url('../Images/Hdrbg.jpg');
+  background-position: center;
+  background-size: cover;
+ width: 100%;
+ height: 145vh;
+
+}
+.hiring-ul {
+  position: absolute;
+  display: flex;
+  background-color: #f5c365;
+  padding: 8px;
+  width: 65%;
+  margin-top:140px ;
+  margin-left: 17%;
+  gap: 2rem;
+}
+.navbar-ul li{
+  list-style: none;
+  display: flex;
+  
+  margin-left: 30;
+  font-weight: 400;
+}
+.flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 354px;
+    perspective: 1000px;
+    font-family: sans-serif;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+  }
+  .flip-card-front p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    width: 230px;
+    font-size: 19px;
+    margin-top: -10%;
+  }
+  .flip-card-front span{
+    font-size: 14px;
+  }
+  .flip-card-front img{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 70%;
+    width: 220px;
+  }
+  .flip-card-front :nth-child(3){
+    width: 220px;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .hiring-haeading{
+    position: absolute;
+    margin-left: 16%;
+    margin-top: 11%;
+  }
+  .hiring-haeading h2{
+    font-size: 50px;
+  }
+  .flip-card-front, .flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 3px dashed black;
+    border-radius: 1rem;
+  }
+
+  .hiring-main-container p{
+    top: 20%;
+  }
+  .flip-card-front {
+    background: linear-gradient(190deg,#EBEBEB 70%, #F6F3EA00 88%,
+       bisque 40%, transparent 78%);
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #DC6E66;
+    transform: rotateY(180deg);
+  }
+  .flip-cart-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 20%;
+  }
+
+  .hiring-form{
+    position: fixed;
+    background-image: url('../Images/Hdrbg.jpg');
+  background-position: center;
+  background-size: cover;
+    height: 80%;
+    padding: 210px;
+    border-radius: 10px;
+    margin-top: -40%;
+    z-index: 3;
+    border: 3px dashed black;
+  }
+  .input-box-hiring{
+   margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 0.1rem;
+    border:1px solid black;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+
+
+  }
+  .input-box-hiring input{
+    padding: 6px;
+    background-color: transparent;
+    border: none;
+    overflow: hidden;
+  }
+  .icons-for-hiring {
+    color: white;
+    background-color: #DC6E66;
+    font-size: 30px;
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  .hiring-form form{
+   margin-top: -10%;
+  }
+  .hiring-form form img{
+    width: 200px;
+    padding: 10px;
+    margin-left: 30%;
+    margin-top: -25%;
+  }
+  .hiring-form form p{
+    font-size: 20px;
+  }
+  .hiring-form form h5{
+    margin: 10px;
+    background-color: #F5C365;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 20px;
+  }
+  .full-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hiring-form-closer{
+    margin-left: 68%;
+    margin-top: -14%;
+    position: absolute;
+    border: 1px solid black;
+    font-size: 6px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+  }
+  .input-box-hiring-check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .input-box-hiring-check input{
+    width: 20px;
+  }
+  .form-btns button{
+    background-color: #DC6E66;
+    border-radius: 50px;
+    padding: 10px;
+    width: 100px;
+    margin-left: 0%;
+    margin-left: 10px;
+  }
+  .form-btns {
+   
+    margin-left: 38%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+
+  

@@ -17,12 +17,15 @@ import Recover from './Forgetpasspages/Recoverpage/Recover.js';
 import Mailverfication from './Forgetpasspages/Recoverpage/Mailverfication/Mailverfication.js'
 import Createnewpassword from './Forgetpasspages/Recoverpage/CreaeteNewPassword/Createnewpassword.js'
 import Featured from './pages/Featured.js'
+import Hiring from './homeComponents/Hiring.js';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/Hiring' element={<Hiring />} />
+        
         <Route path='/Featured' element={<Featured />} />
         <Route path='/Createnewpassword' element={<Createnewpassword />} />
         <Route path='/Mailverfication' element={<Mailverfication />} />
