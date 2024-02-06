@@ -7,9 +7,9 @@ import '../css/Home.css'
 const Home = () => {
   return (
     <div>
-        {/* <Header /> */}
+        <Header />
         <Connectingpage />
-        {/* <Workshop /> */}
+        <Workshop />
     </div>
   )
 }
