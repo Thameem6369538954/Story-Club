@@ -159,7 +159,7 @@ nav button{
   }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:320px){
   
 .input {
   width: 10px;
