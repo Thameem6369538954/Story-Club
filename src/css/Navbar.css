@@ -6,7 +6,7 @@
    */top: 20px;
 }
 .navbar-main button{
-  width: 200px;
+  width: 90%;
 }
 
 nav{
@@ -123,7 +123,7 @@ nav button{
     top: -10px;
     height: 120vh;
     width: 100%;
-    background-image: url('../Images//Navimage.jpg');
+    background-image: url('../Images/Hdrbg.jpg');
     background-position: center;
     background-size: cover;
     z-index: 3;
@@ -144,6 +144,8 @@ nav button{
   }
   .nav-links li{
   margin-top: 10px;
+  font-size: 30px;
+  color: black;
   }
   .menu{
     background-color: #dc6e66;

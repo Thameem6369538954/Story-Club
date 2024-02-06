@@ -10,19 +10,19 @@ const Header = () => {
   return (
     <div>
         <div className="header-main">
+          
         <Navbar />
+       
         <div className="header">
+        <div className="three-btn">
+           <NavLink to='/Hiring'><button className='btn'>More About Us</button></NavLink> 
+            <FaPlay className='play-btn'/>
+        </div>
         <h1  data-aos="fade-down" data-aos-easing="linear"
      data-aos-duration="1000">Real People . Real Stories</h1>
             <p data-aos="fade-up" data-aos-easing="linear"
       >Everybody has a Story to tell</p>
-        </div>
-        <div className="three-btn">
-           <NavLink to='/Hiring'><button>More About Us</button></NavLink> 
-            <FaPlay className='play-btn'/>
-        </div>
-        
-        <div className="two-header-btns">
+       <div className="two-header-btns">
           <div className="btn-1">
           <NavLink to='/Featured'><p>Audio Stories</p></NavLink>
           <FaArrowRight />
@@ -33,8 +33,13 @@ const Header = () => {
           <FaArrowRight />
           </div>
         </div>
+      
+        </div>
+        
+       
         </div>
 
+        
 
     </div>
   )
