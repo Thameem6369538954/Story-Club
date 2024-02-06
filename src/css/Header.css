@@ -19,10 +19,8 @@
 }
 .header h1{
     font-size: 70px;
-    margin-top: 200px;
-    margin-left: 22%;
+    margin-top: 20px;
     color: black;
-    position: absolute;
     text-align: center;
     font-family: 'PT Serif Caption', serif;
     letter-spacing: 0.-1cm;
@@ -49,9 +47,6 @@
     margin-left: -25%;
 }
 .header p{
-    position: absolute;
-    margin-top: 330px;
-    margin-left: 33%;
     font-family: 'Abel', sans-serif;
     font-size: 40px;
 }
@@ -102,21 +97,19 @@
    }
 
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:600px) {
     .header h1{
-        font-size: 23px;
-        margin-top: 120px;
-        margin-left: 6%;
+        font-size: 30px;
         color: teal;
         /* position: absolute; */
         text-align: center;
         font-family: 'PT Serif Caption', serif;
         letter-spacing: 0.-1cm;
+        top: 20px;
+        margin: auto;
     }
     .header p{
-        position: absolute;
-        margin-top: 230px;
-        margin-left: 10%;
+        margin: auto;
         font-family: 'Abel', sans-serif;
         font-size: 25px;
     }
@@ -126,19 +119,17 @@
         outline: none;
         border: none;
         background-color:#eed4c5;
-       margin-top: 200px;
        margin-left: -65%;
-        position: relative;
+        /* position: relative; */
         letter-spacing: 1px;
         border-radius: 20px;
        width: 230px;
        height: 40px;
        }
        .play-btn{
-        margin-left: 5px;
-        margin-top: 200px;
+        margin-left: 20%;
+        margin-top: -10px;
         z-index: 1;
-        position: absolute;
     }
     .three-btn{
        
