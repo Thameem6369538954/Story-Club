@@ -69,7 +69,7 @@
     align-items: center;
     justify-content: space-between;
    }
-   @media screen and (max-width:600px) {
+    (max-width:600px) {
     .story-tell-main{
         background-image: url('../Images/Hdrbg.jpg');
         min-height: 80vh;
