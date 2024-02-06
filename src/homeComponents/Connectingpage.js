@@ -6,8 +6,8 @@ import StorywriterA from '../Images/StorywriterA.png'
 import StoryWriterB from '../Images/StoryWriterB.png'
 const Connectingpage = () => {
   return (
-    <div>
-        {/* <Navbar /> */}
+    <div className='story-tell-main-full'>
+        <Navbar />
         <div className="story-tell-main">
         <ul className='navbar-ul'>
                     <li>Connect With Community |  </li>

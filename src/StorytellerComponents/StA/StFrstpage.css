@@ -12,8 +12,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
-    margin-top: 15%;
+    margin-top: 17%;
+   
 
 }
 .sta-tragentropp-box{
@@ -21,7 +21,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: 30%;
-    margin-top: -5%;
+    margin-top: -30%;
 }
 
 .st-txt-leftbox h2{
@@ -102,6 +102,7 @@ font-family: 'PT Serif Caption', serif;
     cursor: pointer;
 }
 @media screen and (max-width:600px) {
+
     .sta-full-cantainer{
         display: flex;
         flex-direction: column-reverse;
@@ -126,7 +127,7 @@ font-family: 'PT Serif Caption', serif;
         width: 80%;
         display: flex;
         margin-left: 15%;
-        margin-top: 25%;
+        margin-top: -10%;
     }
     .st-txt-leftbox p{
         font-size: 25px;
@@ -159,7 +160,7 @@ font-family: 'PT Serif Caption', serif;
             border: 2px solid  #f4dcd1;
         }
         .headeing{
-            height: 155vh;
+            height: 110vh;
             width: 100%;
             background-image: url('./Hdrbg.jpg');
             background-position: center;

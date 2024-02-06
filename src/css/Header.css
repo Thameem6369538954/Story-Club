@@ -51,14 +51,12 @@
     font-size: 40px;
     padding: 20px;
 }
-
-   .two-header-btns{
+.header-btns-for-redirect{
     display: flex;
-    gap: 5rem;
-    margin-top: 13%;
-    margin-left: 37%;
-    width: 100%;
-   }
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
 
    .btn {
     background-color: #f7ded5;
@@ -107,7 +105,13 @@
     width: calc(100% - 1px);
     height: calc(100% - 1px);
   }
-  
+  .btn-1{
+    font-size: 20px;
+    margin-top: -18%;
+  margin-left: 19px;
+    display: flex;
+    flex-direction: row;
+}
   .btn:hover:after {
     bottom: 2px;
     left: 2px;
@@ -123,11 +127,12 @@
     .btn-1,.btn-2{
         margin-top: -200%;
         display: flex;
+        flex-direction: row;
         gap: 2rem;
         align-items: center;
         font-size: 30px;
         z-index: 1;
-        margin-left: -70px;
+        margin-left: 1px;
     }
   
     .header-main{
@@ -136,7 +141,7 @@
         background-position: center;
         background-size: cover;
        width: 100%;
-       height: 80vh;
+       height: 60vh;
       
     }
   
@@ -170,7 +175,8 @@
         justify-content: space-around;
         align-items: center;
         border-radius: 1.7rem;
-        margin-top: 25%;
+        margin-top: 60%;
+        margin-left: -14%;
       }
       
       .btn:focus {
@@ -202,17 +208,18 @@
         top: 20px;
         padding: 20px;
         margin: auto;
+
     }
     .header p{
         margin: auto;
         font-family: 'Abel', sans-serif;
         font-size: 25px;
-        padding: 20px;
+        margin-top: -15px;
     }
  
        .play-btn{
-        margin-left: 85%;
-        margin-top: 40px;
+        margin-left: 55%;
+        margin-top: 100px;
         z-index: 1;
     }
     .three-btn{
@@ -223,18 +230,26 @@
           margin-top: 30%;
           margin-left:35%;
       }
-    .btn-1,.btn-2{
-        font-size: 18px;
-    }
-    .two-header-btns{
+    .btn-1{
+        font-size: 16px;
+      
         display: flex;
         flex-direction: row;
-         gap: 5rem;
-        position: absolute;
-        margin-top: 130%;
-        margin-left: 19%;
-        font-size: 12px;
+        margin-top: 5%;
+    }
+    .header-btns-for-redirect{
+        display: flex;
+        flex-direction: column;
+        margin-top:30%;
+    }
+    .two-header-btns{
+       display: flex;
+       flex-direction: column;
+       margin-top: -33%;
+       margin-left: 37%;
+       width: 100%;
        }
+     
 }
 
 @media (min-width: 600px) and (max-width: 1024px){

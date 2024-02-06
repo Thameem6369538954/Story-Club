@@ -22,21 +22,23 @@ const Header = () => {
      data-aos-duration="1000">Real People . Real Stories</h1>
             <p data-aos="fade-up" data-aos-easing="linear"
       >Everybody has a Story to tell</p>
-       <div className="two-header-btns">
+        </div> 
+
+      <div className='header-btns-for-redirect'>
+      <div className="btn-1">
+          <NavLink to='/Featured'><button>Audio Stories</button></NavLink>
+          <FaArrowRight />
+        
+          </div>
           <div className="btn-1">
-          <NavLink to='/Featured'><p>Audio Stories</p></NavLink>
+          <NavLink to='/Featured'><button>video Stories</button></NavLink>
           <FaArrowRight />
         
           </div>
-          <div className="btn-2">
-          <NavLink to='/Featured'><p>video Stories</p></NavLink>
-          <FaArrowRight />
-          </div>
+      </div>
+        <div className="two-header-btns">
+         
         </div>
-      
-        </div>
-        
-       
         </div>
 
         

@@ -8,6 +8,7 @@ const Workshop = () => {
   return (
     <div>
            <div className="workshop-main">
+      <Navbar />
             <h1>Join Our Workshop to..........</h1>
             <div className="workshop-container">
                 <div className="workshop-arrow-text">

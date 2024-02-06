@@ -15,7 +15,7 @@ const Stsecondpage = () => {
         <h2>Have a Story to tell?</h2>
         <h5>In 100 - 500 words !</h5>
                 <p>Add Title to your Story!</p>
-                <textarea name="" id="" cols="30" rows="10" placeholder='15 ways to Success'></textarea>
+                <textarea name="" id="txt-area" cols="30" rows="10" placeholder='15 ways to Success'></textarea>
                 <div className="couta">
                 <span>02/03</span>
                 <TiTick className='tick'/>

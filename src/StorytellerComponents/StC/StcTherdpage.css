@@ -15,17 +15,39 @@
 .therdpage-container img{
     position: absolute;
     width: 500px;
-    margin-left: 280%;
+    margin-left: 320%;
+    margin-top: -50%;
+}
+.vedio-therd{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.audio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.audio input{
+  margin-left: 5px;
+}
+.sum{
+  margin-left: 20px;
+}
+.txt-side-therdpage{
+ margin-left: 30%;
 }
 .txt-side-therdpage h1{
- margin-top: -20%;
-    font-size: 60px;
+ margin-top: -30%;
+    font-size: 55px;
     margin-left: 10%;
 }
 .txt-side-therdpage p{
-    margin-top: 5%;
-    font-size: 30px;
-    margin-left: 30%;
+  font-size: 30px;
+  margin: auto;
 }
 .txt-side-therdpage h6{
     margin-top: -10%;
@@ -36,7 +58,7 @@
     margin-top: 10px;
     margin-left:20%;
     height: 100px;
-    width: 400px;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: space-between;
@@ -88,9 +110,9 @@ box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
       background-size: cover;
   }
     .txt-side-therdpage h1{
-      margin-top: -10%;
+      margin-top: -40%;
       margin-bottom: 30px;
-         font-size: 30px;
+      font-size: 30px;
         
      }
      .therd-btns{
@@ -106,6 +128,13 @@ box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
          margin-top: -10%;
          font-size: 12px;
          margin-left: -21%;
+     }
+     .audio{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 20px;
      }
     .therdpage-container{
       display: flex;

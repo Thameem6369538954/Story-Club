@@ -1,13 +1,17 @@
+.story-tell-main-full{
+  background-image: url('../Images/Hdrbg.jpg');
+  min-height: 70vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .story-tell-main{
-    background-image: url('../Images/Hdrbg.jpg');
-    min-height: 60vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+   
+  
 }
 .navbar-ul {
     display: flex;
@@ -90,7 +94,7 @@
         width: 95%;
         height: 50px;
         padding: 5px;
-        margin-top: -120%;
+        margin-top: -150%;
       }
       .navbar-ul li{
         gap: 0.2em;
@@ -98,7 +102,7 @@
         font-size: 8px;
       }
       .Connecting-btns {
-        margin-top: 150px;
+        margin-top: -50px;
       }
       .Connecting-btns button{
         width: 201px;
@@ -111,13 +115,13 @@
         font-size:20px;
     }
     .connect-images img:nth-child(1){
-        margin-top:150%;
+        margin-top:200%;
         margin-left: -50%;
       
        }
        .connect-images img:nth-child(2){
-        margin-top: 130%;
-        margin-left: -10%;
+        margin-top:180%;
+        margin-left: -2%;
        }
        .connect-images img{
         position: absolute;
@@ -134,8 +138,9 @@
     .story-tell-main p{
         font-size: 30px;
         font-family: 'Abel', sans-serif;
-        margin-top: -30px;
+        margin-top: 20px;
     }
+    
    }
    @media (min-width: 600px) and (max-width: 1024px){
     .story-tell-main{
