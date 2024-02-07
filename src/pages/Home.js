@@ -7,9 +7,16 @@ import '../css/Home.css'
 const Home = () => {
   return (
     <div>
+       <div className="horizontal-scroll-container">
+      <div className="horizontal-scroll-content">
+        
         <Header />
         <Connectingpage />
-        <Workshop />
+        {/* <Workshop /> */}
+      </div>
+    </div>
+     
+
     </div>
   )
 }

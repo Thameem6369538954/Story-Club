@@ -6,6 +6,7 @@ import StorywriterA from '../Images/StorywriterA.png'
 import StoryWriterB from '../Images/StoryWriterB.png'
 const Connectingpage = () => {
   return (
+    <div className="st-tellbg">
     <div className='story-tell-main-full'>
         <Navbar />
         <div className="story-tell-main">
@@ -28,6 +29,7 @@ const Connectingpage = () => {
             </div>
         </div>
 
+    </div>
     </div>
   )
 }

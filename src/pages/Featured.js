@@ -122,7 +122,6 @@ const Featured = () => {
             < FeaturedB />
             <FeaturedC />
             <Featuredstories />
-            <Workshop/>
             <Footer />
     </div>
   )

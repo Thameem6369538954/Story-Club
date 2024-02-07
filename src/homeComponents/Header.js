@@ -5,12 +5,13 @@ import pickids from '../Images/pickids.png'
 import { FaPlay } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
-
+import HorizontalScroll from 'react-scroll-horizontal'
 const Header = () => {
   return (
     <div>
+      
         <div className="header-main">
-          
+        
         <Navbar />
        
         <div className="header">
@@ -40,8 +41,6 @@ const Header = () => {
          
         </div>
         </div>
-
-        
 
     </div>
   )
