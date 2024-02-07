@@ -241,7 +241,7 @@
     .header-btns-for-redirect{
         display: flex;
         flex-direction: column;
-        margin-top:40%;
+        margin-top:30%;
     }
     .two-header-btns{
        display: flex;

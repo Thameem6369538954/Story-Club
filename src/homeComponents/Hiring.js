@@ -8,6 +8,7 @@ import { VscMail } from "react-icons/vsc";
 import { MdOutlineLock } from "react-icons/md";
 import { SlBriefcase } from "react-icons/sl";
 import STlogo from '../Images/STlogo.png'
+import { NavLink } from 'react-router-dom';
 const Hiring = () => {
 
     const [formData, setFormData] = useState({
@@ -141,7 +142,7 @@ const [hiring,setHiring] = useState([
             <div className="hiring-form">
             <AiOutlineClose role='button' onClick={toggleModel} className='hiring-form-closer'/>
                 <form onSubmit={handleSubmit}>
-                        <img src={STlogo} alt="" />
+                <NavLink to='/'><img src={STlogo} alt="" /></NavLink>
                         <p>Fill out the form to become a  team member of StoryClub</p>
                         <h5>Position Applied For : {position}</h5>
                     <div className="full-form">

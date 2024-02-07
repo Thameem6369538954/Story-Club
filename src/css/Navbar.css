@@ -203,7 +203,7 @@ nav button{
     list-style: none;
     /* gap: 2rem; */
     left: -1200%;
-    transition: s;
+    transition: 2s;
   }
   .nav-links.active{
     position: absolute;

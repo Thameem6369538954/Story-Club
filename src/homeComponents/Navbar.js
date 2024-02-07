@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div>
         <div className="navbar-main">
-                <img src={STlogo} alt="logo" />
+                <NavLink to='/'><img src={STlogo} alt="logo" /></NavLink>
                 
             <nav>
                 <div className="side-nav">
