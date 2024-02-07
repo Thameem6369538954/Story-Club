@@ -88,6 +88,7 @@
 }
 #txt-area{
     margin-top: 70px;
+    margin-left: -15%;
     height: 100px;
 }
 @media screen and (max-width:600px) {

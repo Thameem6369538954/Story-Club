@@ -32,7 +32,7 @@ const Navbar = () => {
               
                 </div>
                 <div className="div-flex-b">
-                <li>Join Our Storyclub</li>
+                <NavLink to='/Hiring'><li>Join Our Storyclub</li></NavLink>
                 <li>Featured Stories</li>
                 <li>About Storyclub</li>
                 <li>Workshops/Meetup</li>
