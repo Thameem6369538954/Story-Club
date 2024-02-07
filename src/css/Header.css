@@ -3,8 +3,9 @@
     background-image: url('../Images/Hdrbg.jpg');
     background-position: center;
     background-size: cover;
-   width:550%;
+   width:200%;
    height: 100vh;
+   margin-right:-130px;
   
 }
 .btn-1,.btn-2{
@@ -130,7 +131,7 @@
         flex-direction: row;
         gap: 2rem;
         align-items: center;
-        font-size: 30px;
+        font-size: 40px;
         z-index: 1;
         margin-left: 1px;
     }
@@ -140,7 +141,7 @@
         background-image: url('../Images/Hdrbg.jpg');
         background-position: center;
         background-size: cover;
-       width: 200%;
+       width: 300%;
        height: 100vh;
       
     }
@@ -200,25 +201,25 @@
       }
     
     .header h1{
-        font-size: 27px;
+      padding-top: 20%;
+        font-size: 28px;
         color: black;
         text-align: center;
         font-family: 'PT Serif Caption', serif;
         letter-spacing: 0.-1cm;
-        top: 20px;
-        padding: 20px;
         margin: auto;
 
     }
     .header p{
         margin: auto;
+        width: 70%;
         font-family: 'Abel', sans-serif;
-        font-size: 25px;
+        font-size: 45px;
         margin-top: -15px;
     }
  
        .play-btn{
-        margin-left: 55%;
+        margin-left: 60%;
         margin-top: 100px;
         z-index: 1;
     }
@@ -227,7 +228,7 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          margin-top: 30%;
+          margin-top: 50%;
           margin-left:35%;
       }
     .btn-1{

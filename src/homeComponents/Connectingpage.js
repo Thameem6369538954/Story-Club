@@ -4,11 +4,18 @@ import {NavLink} from 'react-router-dom'
 import Navbar from '../homeComponents/Navbar.js'
 import StorywriterA from '../Images/StorywriterA.png'
 import StoryWriterB from '../Images/StoryWriterB.png'
+import Timeline from './Timeline.js'
+
 const Connectingpage = () => {
   return (
+    <div className="time-line-header" id='connect'>
+
+
     <div className="st-tellbg">
+      <Timeline />
     <div className='story-tell-main-full'>
         <Navbar />
+       
         <div className="story-tell-main">
         <ul className='navbar-ul'>
                     <li>Connect With Community |  </li>
@@ -29,6 +36,7 @@ const Connectingpage = () => {
             </div>
         </div>
 
+    </div>
     </div>
     </div>
   )

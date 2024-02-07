@@ -22,14 +22,25 @@ const Navbar = () => {
                 </div>
                 <NavLink to='/Signup'><button >Become a Member</button></NavLink>
             <ul className={open ?'nav-links active':'nav-links'}>
+                <div className="div-flex">
+                <div className="div-flex-a">
                 <li>Home</li>
-                <li>Stories</li>
-                <li>eBooks</li>
+                <li>Story Writers</li>
+                <li>Story Tellers</li>
+                <li>Membership</li>
+                <li>Story Gifting</li>
+              
+                </div>
+                <div className="div-flex-b">
+                <li>Join Our Storyclub</li>
                 <li>Featured Stories</li>
-                <li>Games</li>
-                <li>Add Your Story</li>
-                <li>Contact</li>
-                <li></li>
+                <li>About Storyclub</li>
+                <li>Workshops/Meetup</li>
+                <li>Contact Us</li>
+                </div>
+                </div>
+                
+               
             </ul>
             <div className="nav-icons" onClick={handleClick}>
                 {open ? <AiOutlineClose className='close'/>: <CgMenuLeftAlt className='menu' />}

@@ -5,15 +5,16 @@ import pickids from '../Images/pickids.png'
 import { FaPlay } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
-
+import Timeline from './Timeline.js'
 const Header = () => {
   return (
-    <div>
-      
+    <div className='time-line-header'>
+       
         <div className="header-main">
         
         <Navbar />
-       
+ 
+        
         <div className="header">
         <div className="three-btn">
            <NavLink to='/Hiring'><button className='btn'>More About Us</button></NavLink> 
@@ -24,6 +25,7 @@ const Header = () => {
             <p data-aos="fade-up" data-aos-easing="linear"
       >Everybody has a Story to tell</p>
         </div> 
+       
 
       <div className='header-btns-for-redirect'>
       <div className="btn-1">

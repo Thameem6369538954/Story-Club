@@ -1,10 +1,12 @@
 .st-tellbg{
-  background-image: url('../Images/Hdrbg.jpg');
-  height: 100vh;
-  width: 750%;
-  background-position: center;
-  background-size: cover;
-  margin-left: 40%;
+position: relative;
+    background-image: url('../Images/Hdrbg.jpg');
+    background-position: center;
+    background-size: cover;
+   width:200%;
+   height: 100vh;
+   margin-left: 80%;
+   margin-right: -90%;
 }
 .story-tell-main-full{
  
@@ -81,19 +83,16 @@
     justify-content: flex-start;
    }
    @media screen and (max-width:600px) {
-  
+    .st-tellbg{
+      background-image: url('../Images/Hdrbg.jpg');
+      height: 140vh;
+      width: 155%;
+      background-position: center;
+      background-size: cover;
+      margin-left: 120%;
+    }
     .story-tell-main{
-        background-image: url('../Images/Hdrbg.jpg');
-        min-height: 80vh;
-        width: 100%;
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        
+       
     }
     .navbar-ul {
         display: flex;
@@ -101,16 +100,15 @@
         width: 95%;
         height: 50px;
         padding: 5px;
-        margin-top: -150%;
+        margin-top: 1%;
+        margin-left: 2px;
       }
       .navbar-ul li{
         gap: 0.2em;
         font-weight: 400;
         font-size: 8px;
       }
-      .Connecting-btns {
-        margin-top: -50px;
-      }
+      
       .Connecting-btns button{
         width: 201px;
         margin-top: 20px;
@@ -122,22 +120,23 @@
         font-size:20px;
     }
     .connect-images img:nth-child(1){
-        margin-top:200%;
-        margin-left: -50%;
+        margin-top:50%;
+        margin-left: 10%;
       
        }
        .connect-images img:nth-child(2){
-        margin-top:180%;
-        margin-left: -2%;
+        margin-top:10%;
+        margin-left: -17%;
        }
        .connect-images img{
-        position: absolute;
+      
         width: 200px;
         
        }
        .story-tell-main h1{
-        position: absolute;
-        margin-top:-85%;
+  
+        margin-top:auto;
+        text-align: center;
         font-size: 20px;
         color: teal;
         font-family: 'PT Serif Caption', serif;
@@ -166,14 +165,11 @@
     .navbar-ul {
         /* position: absolute; */
         display: flex;
-        
         background-color: #f5c365;
         width: 90%;
         height: 60px;
         padding: 10px;
-        margin-top: -45%;
-        margin-left: -3%;
-        gap: 1rem;
+        margin-top: 115%;
       }
       .navbar-ul li{
         list-style: none;
