@@ -249,6 +249,11 @@ nav button{
 
 }
 @media (min-width: 601px) and (max-width: 1024px){
+  .navbar-main img{
+    width: 190px;
+    margin-top: 14%;
+    margin-left: 1%;
+  }
   .navbar-main button{
     background-color: #fcf0e7;
     /* padding: 10px; */
