@@ -255,14 +255,9 @@
 
 @media (min-width: 600px) and (max-width: 1024px){
     .header h1{
-        font-size: 50px;
-        margin-top: 150px;
-        margin-left: 10%;
         color: black;
-        position: absolute;
-        text-align: center;
-        font-family: 'PT Serif Caption', serif;
-        letter-spacing: 0.-1cm;
+        display: grid;
+        place-items: center;
     }
     .header p{
         position: absolute;

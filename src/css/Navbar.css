@@ -247,7 +247,7 @@ nav button{
     justify-content: center;
     align-items: center;
     margin-top: 3%;
-    margin-left: 160%;
+    margin-left:10%;
 }
 .navbar-main img{
   width: 200px;
@@ -270,27 +270,26 @@ nav button{
   position: absolute;
   color: white;
   font-size: 40px;
-  margin-left: -9%;
+margin-left: -90%;
 }
 .nav-links{
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 10px;
-  height: 120vh;
-  width: 200%;
+  top: 1px;
+  height: 100vh;
+  width: 10%;
   background-image: url('../Images//Navimage.jpg');
   background-position: center;
   background-size: cover;
   z-index: 3;
   list-style: none;
-  /* gap: 2rem; */
-  left: -277%;
+  left: -100%;
   transition: 1s;
 }
 .nav-links.active{
   position: absolute;
-  left: -10%;
+  left: -20%;
 }
 .nav-links li{
 padding-top: 3%;
@@ -299,7 +298,6 @@ margin-top: 10px;
 .menu{
   background-color: #dc6e66;
   font-size: 20px;
- 
   color: white;
   border-radius: 10px;
   
@@ -307,9 +305,10 @@ margin-top: 10px;
 .close{
   background-color:white  ;
   font-size: 20px;
-  /* padding: 10px; */
   color: #dc6e66;
   border-radius: 10px;
-  margin-top: 40px;
+  margin-top: 110%;
+  margin-left: 20%;
+  position: absolute;
 }
 }
