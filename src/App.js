@@ -25,7 +25,6 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Hiring' element={<Hiring />} />
-        
         <Route path='/Featured' element={<Featured />} />
         <Route path='/Createnewpassword' element={<Createnewpassword />} />
         <Route path='/Mailverfication' element={<Mailverfication />} />

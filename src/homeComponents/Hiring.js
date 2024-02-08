@@ -115,10 +115,10 @@ const [hiring,setHiring] = useState([
                     <li>As You growth, Join your fearture Profiles  </li>
                 </ul>
         </div>
-        <h1>.</h1>
+   
         <div className="hiring-haeading">
             <h2>Join StoryClub!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </span>
         </div>
                 <div className="flip-cart-container">
             {hiring.map((hir,inx)=> {

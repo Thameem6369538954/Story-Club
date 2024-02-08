@@ -8,7 +8,7 @@
 
 }
 .hiring-ul {
-  position: absolute;
+
   display: flex;
   background-color: #f5c365;
   padding: 8px;
@@ -38,24 +38,20 @@
     text-align: center;
     margin: 0;
   }
-  .flip-card-front p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 30px;
-    width: 230px;
-    font-size: 19px;
-    margin-top: -10%;
-  }
+
   .flip-card-front span{
-    font-size: 14px;
+    width: 70%;
+    margin-left: 60px;
+    font-family: 'Abel', sans-serif;
+    font-size: 13px;
+    text-align: center;
   }
   .flip-card-front img{
     aspect-ratio: 3/2;
     object-fit: contain;
     position: absolute;
-    margin-left: -90px;
-    margin-top: 70%;
+    margin-left: -70px;
+    margin-top: 55%;
     width: 220px;
   }
   .flip-card-front :nth-child(3){
@@ -73,13 +69,14 @@
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
-  .hiring-haeading{
-    position: absolute;
-    margin-left: 16%;
-    margin-top: 11%;
+  .hiring-haeading h1,p{
+  margin: 10px;
+  
   }
   .hiring-haeading h2{
+    margin: 10px;
     font-size: 50px;
+    text-align: center;
   }
   .flip-card-front, .flip-card-back {
     box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
@@ -94,9 +91,14 @@
     border: 3px dashed black;
     border-radius: 1rem;
   }
-
+.hiring-haeading span{
+  color: blue;
+}
   .hiring-main-container p{
-    top: 20%;
+   
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    text-align: center;
   }
   .flip-card-front {
     background: linear-gradient(190deg,#EBEBEB 70%, #F6F3EA00 88%,
@@ -114,7 +116,7 @@
     align-items: center;
     justify-content: center;
     gap: 5rem;
-    margin-top: 20%;
+  margin-top: 5%;
   }
 
   .hiring-form{

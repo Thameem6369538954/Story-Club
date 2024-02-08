@@ -9,7 +9,6 @@ const Home = () => {
     <div>
        <div className="horizontal-scroll-container">
       <div className="horizontal-scroll-content">
-        
         <Header />
         <Connectingpage />
         {/* <Workshop /> */}

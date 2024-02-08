@@ -8,13 +8,17 @@ import Timeline from './Timeline.js'
 
 const Connectingpage = () => {
   return (
+    <>
     <div className="time-line-header" id='connect'>
 
 
     <div className="st-tellbg">
-      <Timeline />
+      <div className="nav-sani">
+
+      <Navbar />
+      </div>
+      
     <div className='story-tell-main-full'>
-        <Navbar />
        
         <div className="story-tell-main">
         <ul className='navbar-ul'>
@@ -39,6 +43,7 @@ const Connectingpage = () => {
     </div>
     </div>
     </div>
+</>
   )
 }
 
