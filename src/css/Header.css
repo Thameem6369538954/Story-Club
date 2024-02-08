@@ -253,13 +253,16 @@
 }
 
 @media (min-width: 600px) and (max-width: 1024px){
+  .nav-sani-headrer{
+    margin-top: -5%;
+  }
   .header-main{
     position: relative;
     background-image: url('../Images/Hdrbg.jpg');
     background-position: center;
     background-size: cover;
    width: 215%;
-   height: 100vh;
+   height: 104vh;
   
 }
     .header h1{
@@ -278,7 +281,7 @@
 
        .play-btn{
         margin-left: 100px;
-        margin-top: 135px;
+        margin-top: 165px;
         z-index: 1;
         position: absolute;
     }
@@ -320,7 +323,7 @@
         justify-content: space-around;
         align-items: center;
         border-radius: 1.7rem;
-        margin-top: 80%;
+        margin-top: 100%;
         margin-left: -14%;
       }
       

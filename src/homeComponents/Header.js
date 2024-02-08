@@ -11,8 +11,10 @@ const Header = () => {
     <div className='time-line-header'>
        
         <div className="header-main">
-        
+        <div className="nav-sani-headrer">
+
         <Navbar />
+        </div>
  
         
         <div className="header">
