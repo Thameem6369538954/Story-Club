@@ -15,7 +15,17 @@ const StoryGift = () => {
       <div className={styles.section1}>
         <h1>Gift your loved one a Story this</h1>
         <img src={img1} alt="valentines" className={styles.section1Img1} />
-        <img src={img2} alt="valentines" className={styles.section1Img2} />
+        {/* <img src={img2} alt="valentines" className={styles.section1Img2} /> */}
+        <div className={styles.section1Video}>
+          <iframe
+            title="Embedded Video"
+            src="https://drive.google.com/file/d/1pjUV9cyiHr5VJFEdd-2cz2pZPlvsrL_f/preview"
+            // width="100%"
+            // height="400"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
 
       {/* section 2 */}

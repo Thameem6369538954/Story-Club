@@ -83,9 +83,14 @@ position: relative;
     justify-content: flex-start;
    }
    @media screen and (max-width:600px) {
+    .nav-sani{
+      margin-top: -10%;
+      width: 100%;
+
+    }
     .st-tellbg{
       background-image: url('../Images/Hdrbg.jpg');
-      height: 90vh;
+      height: 107vh;
       width: 155%;
       background-position: center;
       background-size: cover;

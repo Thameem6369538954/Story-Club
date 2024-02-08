@@ -13,6 +13,15 @@
   padding: 3rem 0;
 }
 
+.section1Video {
+  width: 40%;
+}
+.section1Video iframe {
+  width: 100%;
+  height: 24rem;
+  border-radius: 1rem;
+}
+
 /* section 2 */
 /* & section 5 */
 .section2 {
@@ -280,6 +289,10 @@
 
 /* For tablets */
 @media all and (min-width: 768px) and (max-width: 1024px) {
+  /* section 1 */
+  .section1Video {
+    width: 67%;
+  }
   /* section 2 */
   /* & section 5 */
   .section2Content {
@@ -360,6 +373,12 @@
     width: 90%;
   }
 
+  .section1Video {
+    width: 86%;
+  }
+  .section1Video iframe {
+    height: 20rem;
+  }
   /* section 2 */
   /* & section 5 */
   .section2Content {
