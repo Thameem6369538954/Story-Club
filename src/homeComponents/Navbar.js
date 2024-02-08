@@ -24,11 +24,11 @@ const Navbar = () => {
             <ul className={open ?'nav-links active':'nav-links'}>
                 <div className="div-flex">
                 <div className="div-flex-a">
-                <li>Home</li>
-                <li>Story Writers</li>
-                <li>Story Tellers</li>
+              <NavLink to='/'>  <li>Home</li></NavLink>
+              <NavLink to='/StFrstpage'><li>Story Tellers</li></NavLink>
+               <NavLink to='/Swfirstpage'><li>Story Writers</li></NavLink> 
                 <li>Membership</li>
-                <li>Story Gifting</li>
+                <NavLink to='/StoryGift '><li>Story Gifting</li></NavLink>
               
                 </div>
                 <div className="div-flex-b">

@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .Featuredc-main{
     background-image: url('../Images/Bgimage.jpg');
     background-position: center;
@@ -10,7 +15,7 @@
 .featuredc-container{
     display: flex;
     align-items:center;
-    justify-content: space-around;
+    justify-co\ntent: space-around;
 }
 .featured-store-videos-text h2{
     font-size: 30px;

@@ -258,19 +258,14 @@ nav button{
     margin-left: 25px;
   }
   .div-flex{
-    margin-top: -10%;
+    margin-top: -30%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 12rem;
   }
 
-  .close{
-    position: absolute;
-    color: white;
-    font-size: 40px;
-    margin-left: -9%;
-  }
+  
   .nav-links{
     display: flex;
     flex-direction: column;
@@ -317,6 +312,6 @@ nav button{
     border-radius: 10px;
     margin-top: 10px;
     font-size: 40px;
-    margin-left: 10%;
+    margin-left: -90%;
   }
 }

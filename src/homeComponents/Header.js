@@ -31,12 +31,12 @@ const Header = () => {
 
       <div className='header-btns-for-redirect'>
       <div className="btn-1">
-          <NavLink to='/Featured'><button>Audio Stories</button></NavLink>
+          <NavLink to='/'><button>Audio Stories</button></NavLink>
           <FaArrowRight />
         
           </div>
           <div className="btn-1">
-          <NavLink to='/Featured'><button>video Stories</button></NavLink>
+          <NavLink to='/'><button>video Stories</button></NavLink>
           <FaArrowRight />
         
           </div>

@@ -18,12 +18,14 @@ import Mailverfication from './Forgetpasspages/Recoverpage/Mailverfication/Mailv
 import Createnewpassword from './Forgetpasspages/Recoverpage/CreaeteNewPassword/Createnewpassword.js'
 import Featured from './pages/Featured.js'
 import Hiring from './homeComponents/Hiring.js';
+import StoryGift from "./homeComponents/Valentine'sDayStoryGift/StoryGift.jsx"
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/StoryGift' element={<StoryGift />} />
         <Route path='/Hiring' element={<Hiring />} />
         <Route path='/Featured' element={<Featured />} />
         <Route path='/Createnewpassword' element={<Createnewpassword />} />
