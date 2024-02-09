@@ -7,6 +7,7 @@
 }
 .navbar-main button{
   width: 90%;
+  z-index: 99;
 }
 
 nav{
@@ -170,6 +171,7 @@ nav button{
    padding: 10px;
     color: white;
     border-radius: 50%;
+    cursor: pointer;
   }
   .close{
     background-color:white  ;
@@ -177,9 +179,11 @@ nav button{
     /* padding: 10px; */
     color: #dc6e66;
     border-radius: 10px;
+    padding: 10px;
     margin-top: 10px;
     font-size: 40px;
     margin-left: 10%;
+    cursor: pointer;
   }
 }
 
@@ -235,6 +239,7 @@ nav button{
     color: white;
     border-radius: 50%;
     margin-top: -90%;
+    cursor: pointer;
     
   }
   .close{
