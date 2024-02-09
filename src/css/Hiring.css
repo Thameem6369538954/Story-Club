@@ -180,6 +180,7 @@
   .full-form{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
   }
   .hiring-form-closer{
@@ -216,9 +217,14 @@
     align-items: center;
     width: 100%;
   }
-  
-
+ 
   @media (min-width: 600px) and (max-width: 1024px){
+    .form-btns {
+      margin-left: 8%;
+      display: flex;
+      align-items: center;
+      width: 100%;
+  }
     .full-hiring{
       position: relative;
       background-image: url('../Images/Hdrbg.jpg');
@@ -282,6 +288,16 @@
   }
 
   @media screen and (max-width:600px) {
+    .form-btns {
+      margin-left: 8%;
+      display: flex;
+      align-items: center;
+      width: 100%;
+  }
+    .hiring-haeading {
+      margin-top: 0;
+      margin-left: 1%;
+  }
     .hiring-form form p{
       font-size:16px;
     }
@@ -291,16 +307,16 @@
       background-color: #f5c365;
       padding: 8px;
       width: 95%;
-      height: 10%;
-      margin-top:40px ;
-      margin-left: 1%;
+      height: 5%;
+      margin-top:180px ;
+      margin-left: 2%;
       gap: 2rem;
     }
    .hiring-ul li{
-    font-size: 11px;
+    font-size: 9px;
    }
     .hiring-form{
-      position: fixed;
+      position: absolute;
       background-image: url('../Images/Hdrbg.jpg');
     background-position: center;
     background-size: cover;
@@ -317,22 +333,23 @@
       align-items: center;
       justify-content: center;
       gap: 5rem;
-      margin-top: 100%;
+      margin-top: 30%;
     }
-    .hiring-haeading{
-      margin-top: 40%;
-      margin-left: 1%;
-    }
+  
     .hiring-form{
     
       background-image: url('../Images/Hdrbg.jpg');
     background-position: center;
     background-size: cover;
-      height: 90%;
+      height: 140%;
       padding: 210px;
       border-radius: 10px;
       margin-top: 220%;
       z-index: 3;
       border: 3px dashed black;
     }
+    .hiring-haeading span {
+      margin-top:310px;
+      color: black;
+  }
   }

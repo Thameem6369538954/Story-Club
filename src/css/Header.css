@@ -8,6 +8,21 @@
    margin-right:-130px;
   
 }
+.navbar-ul-hdr {
+    display: flex;
+    background-color: #f5c365;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 12%;
+    padding: 10px;
+    gap: 2rem;
+  }
+  .navbar-ul-hdr li{
+    font-size: 20px;
+    margin-left: 25%;
+    text-align: center;
+  }
 .btn-1,.btn-2{
     
     margin-top: -10%;
@@ -34,7 +49,7 @@
 
 .play-btn{
     margin-left: 185px;
-    margin-top: -235px;
+    margin-top: -95px;
     z-index: 1;
     position: absolute;
 }
@@ -56,9 +71,77 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20%;
+    margin-top: 16%;
+}
+.button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  gap: 4px;
+  z-index: 1;
+  position: absolute;
+  margin-left: 80%;
 }
 
+.button {
+  animation: move 2s infinite ease;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(20px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.round {
+  width: 6px;
+  height: 6px;
+  background: #3da9fc;
+  border-radius: 50%;
+}
+
+.line {
+  display: flex;
+  gap: 4px;
+}
+.line-one{
+  display: flex;
+  font-size: 30px;
+  font-weight: 800;
+}
+.line-one h1{
+  font-size: 19px;
+}
+.two {
+  transform: translateX(10px);
+}
+
+.three {
+  transform: translateX(20px);
+}
+
+.four {
+  transform: translateX(30px);
+}
+
+.five {
+  transform: translateX(20px);
+}
+
+.six {
+  transform: translateX(10px);
+}
    .btn {
     background-color: #f7ded5;
     border: 0 solid #e5e7eb;
@@ -89,7 +172,7 @@
     justify-content:center;
     align-items: center;
     border-radius: 1.7rem;
-    margin-top: -60%;
+    margin-top: -30%;
   }
   
   .btn:focus {
@@ -128,8 +211,36 @@
     }
   }
 @media screen and (max-width:600px) {
+  .button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    gap: 4px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 40%;
+  }
+  .navbar-ul-hdr {
+    display: flex;
+    background-color: #f5c365;
+    width: 90%;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 3%;
+    padding: 10px;
+    gap: 2rem;
+  }
+  .navbar-ul-hdr li{
+    font-size: 15px;
+    margin-left: 5%;
+    text-align: center;
+  }
   .nav-sani-headrer{
-    margin-top: -8%;
+    margin-top: -1%;
   }
     .btn-1,.btn-2{
         margin-top: -200%;
@@ -181,7 +292,7 @@
         display: flex;
         align-items: center;
         border-radius: 1.7rem;
-        margin-top: 60%;
+        margin-top: 70%;
         margin-left: -14%;
       }
       
@@ -214,7 +325,7 @@
 
     }
     .header p{
-      margin-top: auto;
+      margin-top: -8%;
       font-family: 'Abel', sans-serif;
       font-size: 30px;
       text-align: center;
@@ -222,7 +333,7 @@
  
        .play-btn{
         margin-left: 60%;
-        margin-top: 100px;
+        margin-top: 117px;
         z-index: 1;
     }
     .three-btn{

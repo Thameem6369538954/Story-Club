@@ -4,7 +4,7 @@
 .headeing{
     height: 100vh;
     width: 100%;
-    background-image: url('./Hdrbg.jpg');
+    background-image: url('../../Images/Hdrbg.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -162,7 +162,7 @@ font-family: 'PT Serif Caption', serif;
         .headeing{
             height: 110vh;
             width: 100%;
-            background-image: url('./Hdrbg.jpg');
+               background-image: url('../../Images/Hdrbg.jpg');
             background-position: center;
             background-size: cover;
             position: relative;
@@ -240,7 +240,7 @@ font-family: 'PT Serif Caption', serif;
         .headeing{
             height: 160vh;
             width: 100%;
-            background-image: url('./Hdrbg.jpg');
+               background-image: url('../../Images/Hdrbg.jpg');
             background-position: center;
             background-size: cover;
         }

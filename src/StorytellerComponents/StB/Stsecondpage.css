@@ -1,7 +1,7 @@
 .second-st-main {
     height: 110vh;
     width: 100%;
-    background-image: url('./Hdrbg.jpg');
+       background-image: url('../../Images/Hdrbg.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -160,7 +160,7 @@
     .second-st-main {
         height: 140vh;
         width: 100%;
-        background-image: url('./Hdrbg.jpg');
+           background-image: url('../../Images/Hdrbg.jpg');
         background-position: center;
         background-size: cover;
     }
@@ -183,7 +183,7 @@
     .second-st-main {
         height: 100vh;
         width: 100%;
-        background-image: url('./Hdrbg.jpg');
+           background-image: url('../../Images/Hdrbg.jpg');
         background-position: center;
         background-size: cover;
     }
@@ -250,7 +250,7 @@
     .second-st-main {
         height: 170vh;
         width: 100%;
-        background-image: url('./Hdrbg.jpg');
+           background-image: url('../../Images/Hdrbg.jpg');
         background-position: center;
         background-size: cover;
     }
