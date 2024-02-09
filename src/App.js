@@ -19,12 +19,14 @@ import Createnewpassword from './Forgetpasspages/Recoverpage/CreaeteNewPassword/
 import Featured from './pages/Featured.js'
 import Hiring from './homeComponents/Hiring.js';
 import StoryGift from "./homeComponents/Valentine'sDayStoryGift/StoryGift.jsx"
+import Aboutus from './homeComponents/AboutUs/AboutUs/AboutUs.jsx'
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/Aboutus' element={<Aboutus />} />
         <Route path='/StoryGift' element={<StoryGift />} />
         <Route path='/Hiring' element={<Hiring />} />
         <Route path='/Featured' element={<Featured />} />

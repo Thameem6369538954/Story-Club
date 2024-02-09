@@ -187,7 +187,12 @@
         background-position: center;
         background-size: cover;
     }
-    
+    .st-two-btns {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
     .left-side-secondst h5{
         color: black;
         font-size: 20px;
@@ -218,10 +223,10 @@
     position: absolute;
     }
     .stsecond-main-conatainer img {
-        width: 350px;
+        width: 300px;
         height: 50%;
-        margin-top: 60px;
-        margin-left: 20%;
+        margin-top: 10px;
+        margin-left: 35%;
     }
     .st-two-btns button {
         background-color: #f4dcd1;
@@ -248,7 +253,7 @@
         box-shadow: -15px 12px 5px 0px rgba(0,0,0,0.75);
     }
     .second-st-main {
-        height: 170vh;
+        height: 100vh;
         width: 100%;
            background-image: url('../../Images/Hdrbg.jpg');
         background-position: center;

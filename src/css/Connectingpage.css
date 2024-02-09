@@ -161,8 +161,8 @@ position: relative;
    @media (min-width: 600px) and (max-width: 1024px){
     .nav-sani{
       margin-top: -5%;
-      margin-left: 50%;
-      width: 80%;
+      margin-left: 24%;
+      width: 100%;
 
     }
     .story-tell-main{
@@ -220,7 +220,7 @@ position: relative;
         border: 1px solid black;
         border-radius: 10px;
         font-size:20px;
-        z-index: 3;
+        z-index: 6  ;
     }
     .connect-images img:nth-child(1){
         margin-top:113%;

@@ -265,7 +265,7 @@ const StoryGift = () => {
             className={styles.btn}
             
           >
-            What it’s About? <FaPlay />
+            Get Your Personalized Story ! <FaPlay />
           </button>
         </div>
         <div className={styles.section7Right}>

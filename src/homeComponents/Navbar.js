@@ -27,16 +27,17 @@ const Navbar = () => {
               <NavLink to='/'>  <li>Home</li></NavLink>
               <NavLink to='/StFrstpage'><li>Story Tellers</li></NavLink>
                <NavLink to='/Swfirstpage'><li>Story Writers</li></NavLink> 
-                <li>Membership</li>
-                <NavLink to='/StoryGift '><li>Story Gifting</li></NavLink>
+                {/* <li>Membership</li> */}
+                
               
                 </div>
                 <div className="div-flex-b">
                 <NavLink to='/Hiring'><li>Join Our Storyclub</li></NavLink>
-                <li>Featured Stories</li>
+                {/* <li>Featured Stories</li> */}
                 <li>About Storyclub</li>
-                <li>Workshops/Meetup</li>
-                <li>Contact Us</li>
+                <NavLink to='/StoryGift '><li>Story Gifting</li></NavLink>
+                {/* <li>Workshops/Meetup</li> */}
+                
                 </div>
                 </div>
                 

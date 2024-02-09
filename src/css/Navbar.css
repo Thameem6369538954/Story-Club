@@ -256,8 +256,8 @@ nav button{
   .navbar-main img{
     width: 112px;
     height: 55px;
-    margin-top: 14%;
-    margin-left: 1%;
+    margin-top: 65%;
+    margin-left: 19%;
   }
   .navbar-main button{
     background-color: #fcf0e7;
@@ -316,10 +316,12 @@ nav button{
   }
   .menu{
     background-color: #dc6e66;
-    font-size: 30px;
+    font-size: 40px;
+
+   padding: 10px;
     color: white;
-    border-radius: 10px;
-    
+    border-radius: 50%;
+    margin-top: -10%;
   }
   .close{
     background-color:white  ;
@@ -330,5 +332,12 @@ nav button{
     margin-top: 10px;
     font-size: 40px;
     margin-left: -90%;
+  }
+  .navbar-main{
+    display: flex;
+    align-items: center;
+   gap: 20rem;
+    /* position: absolute;
+     */top: 20px;
   }
 }

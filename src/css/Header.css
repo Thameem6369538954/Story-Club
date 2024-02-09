@@ -367,6 +367,19 @@
 }
 
 @media (min-width: 600px) and (max-width: 1024px){
+  .navbar-ul-hdr {
+    display: flex;
+    background-color: #f5c365;
+    width: 90%;
+    margin-bottom: 25px;
+    margin-top: 29px;
+    margin-left: 5%;
+    padding: 10px;
+    gap: 2rem;
+  } 
+  .navbar-ul-hdr li{
+    margin: auto;
+  }
   .nav-sani-headrer{
     margin-top: -5%;
   }
@@ -380,7 +393,7 @@
   
 }
     .header h1{
-      margin-top: auto;
+     margin-top: -2%;
       font-family: 'Abel', sans-serif;
       font-size: 80px;
       text-align: center;
@@ -394,8 +407,8 @@
     }
 
        .play-btn{
-        margin-left: 100px;
-        margin-top: 165px;
+        margin-left: 200px;
+        margin-top: 182px;
         z-index: 1;
         position: absolute;
     }
@@ -425,7 +438,7 @@
         text-align: center;
         text-decoration: none #000000 solid;
         text-decoration-thickness: auto;
-        width: 100%;
+        width: 150%;
         max-width: 460px;
         position: relative;
         cursor: pointer;
@@ -437,9 +450,23 @@
         justify-content: space-around;
         align-items: center;
         border-radius: 1.7rem;
-        margin-top: 100%;
-        margin-left: -14%;
+        margin-top: 110%;
+        margin-left: -18%;
       }
+      .button {
+        cursor: pointer;
+        background: none;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        width: 70px;
+        gap: 4px;
+        z-index: 1;
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 60%;
+        animation: move 2s infinite ease;
+    }
       
       .btn:focus {
         outline: 0;
@@ -461,7 +488,7 @@
         left: 2px;
       }
       .header p{
-        margin-top: auto;
+        margin-top: -5%;
         font-family: 'Abel', sans-serif;
         font-size: 30px;
         text-align: center;
