@@ -8,6 +8,8 @@ import { NavLink } from 'react-router-dom';
 import Timeline from './Timeline.js'
 import { GoChevronRight } from "react-icons/go";
 import { Link } from 'react-scroll';
+import LeftT from '../Images/LeftT.png'
+import RightT from '../Images/RightT.png'
 const Header = () => {
   return (
     <div className='time-line-header'>
@@ -33,6 +35,22 @@ const Header = () => {
             <p data-aos="fade-up" data-aos-easing="linear"
       >Everybody has a Story to tell</p>
         </div> 
+
+        <div className="teacher-video">
+            <img src={LeftT} alt="" />
+            <div >
+          <iframe
+            title="Embedded Video"
+            src="https://drive.google.com/file/d/1pjUV9cyiHr5VJFEdd-2cz2pZPlvsrL_f/preview"
+            // width="100%"
+            // height="400"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+          ></iframe>
+        </div>
+            <img src={RightT} alt="" />
+          </div>
+        
       <Link to='connect'> <button className="button">
         
   <div className="line-one">

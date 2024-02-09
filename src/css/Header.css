@@ -8,19 +8,38 @@
    margin-right:-130px;
   
 }
+.teacher-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -11%;
+  margin-left: 14%;
+  position: absolute;
+
+}
+.teacher-video img{
+  margin-top: 12%;
+  width: 20%;
+}
+.teacher-video iframe{
+  width: 100%;
+  margin-top: -18%;
+  margin-left: -0.1%;
+  border-radius: 10%;
+}
 .navbar-ul-hdr {
     display: flex;
     background-color: #f5c365;
-    width: 100%;
+    width: 60%;
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 12%;
+    margin-left: 22%;
     padding: 10px;
     gap: 2rem;
   }
   .navbar-ul-hdr li{
     font-size: 20px;
-    margin-left: 25%;
+    margin-left: 20%;
     text-align: center;
   }
 .btn-1,.btn-2{
@@ -39,17 +58,18 @@
     
 .header h1{
     font-size: 70px;
-    margin-top: 20px;
+    margin-top: -20px;
     color: black;
     text-align: center;
     font-family: 'PT Serif Caption', serif;
     letter-spacing: 0.-1cm;
     padding: 20px;
+    
 }
 
 .play-btn{
     margin-left: 185px;
-    margin-top: -95px;
+    margin-top: 53px;
     z-index: 1;
     position: absolute;
 }
@@ -66,12 +86,13 @@
     font-family: 'Abel', sans-serif;
     font-size: 40px;
     padding: 20px;
+    margin-top: -1%;
 }
 .header-btns-for-redirect{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 16%;
+    margin-top: 30%;
 }
 .button {
   cursor: pointer;
@@ -172,7 +193,7 @@
     justify-content:center;
     align-items: center;
     border-radius: 1.7rem;
-    margin-top: -30%;
+    margin-top: 20%;
   }
   
   .btn:focus {
@@ -211,6 +232,15 @@
     }
   }
 @media screen and (max-width:600px) {
+  .teacher-video {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: -11%;
+    margin-left: 14%;
+    position: absolute;
+  
+  }
   .button {
     cursor: pointer;
     background: none;
@@ -367,6 +397,26 @@
 }
 
 @media (min-width: 600px) and (max-width: 1024px){
+  .teacher-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 19%;
+    margin-left: 1%;
+    gap: 0.2rem;
+    position: absolute;
+  
+  }
+  .teacher-video img{
+    margin-top: 12%;
+    width: 20%;
+  }
+  .teacher-video iframe{
+    width: 100%;
+    margin-top: -18%;
+    margin-left: -0.1%;
+    border-radius: 10%;
+  }
   .navbar-ul-hdr {
     display: flex;
     background-color: #f5c365;
@@ -497,6 +547,6 @@
       display: flex;
       flex-direction: row;
       gap: 2rem;
-      margin-top:40%;
+      margin-top:70%;
   }
 }
