@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../css/Footer.css'
 import STlogo from '../Images/STlogo.png'
 import { LiaFacebookF } from "react-icons/lia";
@@ -6,6 +6,8 @@ import { AiFillInstagram } from "react-icons/ai";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { BsTwitterX } from "react-icons/bs";
 const Footer = () => {
+
+
   return (
     <div className='footer-bg'>
       

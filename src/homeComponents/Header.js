@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useRef,useEffect} from 'react'
 import '../css/Header.css'
 import Navbar from '../homeComponents/Navbar.js'
 import pickids from '../Images/pickids.png'
@@ -11,6 +11,34 @@ import { Link } from 'react-scroll';
 import LeftT from '../Images/LeftT.png'
 import RightT from '../Images/RightT.png'
 const Header = () => {
+  const h1Ref = useRef(null);
+  const pRef = useRef(null);
+
+  useEffect(() => {
+    const spanText = (text) => {
+      let string = text.innerText;
+      let spanned = "";
+      for (let i = 0; i < string.length; i++) {
+        if (string.substring(i, i + 1) === " ")
+          spanned += string.substring(i, i + 1);
+        else spanned += "<span>" + string.substring(i, i + 1) + "</span>";
+      }
+      text.innerHTML = spanned;
+
+      let animations = text.querySelectorAll("span");
+      animations.forEach((letter, i) => {
+        letter.style.animationDelay = i * 0.1 + "s";
+      });
+    };
+
+    if (h1Ref.current) {
+      spanText(h1Ref.current);
+    }
+
+    if (pRef.current) {
+      spanText(pRef.current);
+    }
+  }, []);
   return (
     <div className='time-line-header'>
        
@@ -30,8 +58,9 @@ const Header = () => {
                     <li>Get your stories featured on Story Club in just Rs 49.</li>
                     
                 </ul>
-        <h1  data-aos="fade-down" data-aos-easing="linear"
-     data-aos-duration="1000">Real People . Real Stories</h1>
+                <div className="section2Content-a">
+                   <h1 className='animations' ref={h1Ref}>Real People . Real Stories</h1>
+                </div>
             <p data-aos="fade-up" data-aos-easing="linear"
       >Everybody has a Story to tell</p>
         </div> 
@@ -54,7 +83,7 @@ const Header = () => {
       <Link to='connect'> <button className="button">
         
   <div className="line-one">
-    <h1>swipe Here..</h1>
+    <h1>Slide to the Next page...</h1>
   <GoChevronRight />
   <GoChevronRight />
   <GoChevronRight />
@@ -88,12 +117,12 @@ const Header = () => {
       <div className='header-btns-for-redirect'>
       <div className="btn-1">
           <NavLink to='/'><button>Audio Stories</button></NavLink>
-          <FaArrowRight />
+          <FaArrowRight className='icon-for-header' />
         
           </div>
           <div className="btn-1">
-          <NavLink to='/'><button>video Stories</button></NavLink>
-          <FaArrowRight />
+          <NavLink to='/'><button >video Stories</button></NavLink>
+          <FaArrowRight className='icon-for-header' />
         
           </div>
           

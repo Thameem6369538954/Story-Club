@@ -12,6 +12,12 @@ import { NavLink } from 'react-router-dom';
 import Footer from '../homeComponents/Footer.js'
 const Hiring = () => {
 
+   
+    // const serviceId=;
+    // const templateId =;
+    // const publicId=;
+   
+
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -109,12 +115,15 @@ const [hiring,setHiring] = useState([
        
         <div className="hiring-main-container">
         <div className="board-yellow">
+            
         <ul className='hiring-ul'>
-                    <li>Connect With Community |  </li>
+        <marquee>   <li>Connect With Community |  </li>
                     <li>Start Sharing your stories |  </li>
                     <li>Welcome the regcognition |  </li>
                     <li>As You growth, Join your fearture Profiles  </li>
+                    </marquee>
                 </ul>
+               
         </div>
    
         <div className="hiring-haeading">
