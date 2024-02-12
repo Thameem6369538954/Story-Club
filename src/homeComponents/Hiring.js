@@ -9,6 +9,7 @@ import { MdOutlineLock } from "react-icons/md";
 import { SlBriefcase } from "react-icons/sl";
 import STlogo from '../Images/STlogo.png'
 import { NavLink } from 'react-router-dom';
+import Footer from '../homeComponents/Footer.js'
 const Hiring = () => {
 
     const [formData, setFormData] = useState({
@@ -140,11 +141,14 @@ const [hiring,setHiring] = useState([
             })}
             {open &&(
             <div className="hiring-form">
+                
             <AiOutlineClose role='button' onClick={toggleModel} className='hiring-form-closer'/>
                 <form onSubmit={handleSubmit}>
+                <div className="form-heading">
                 <NavLink to='/'><img src={STlogo} alt="" /></NavLink>
                         <p>Fill out the form to become a  team member of StoryClub</p>
                         <h5>Position Applied For : {position}</h5>
+                        </div>
                     <div className="full-form">
                    <div>
                 
@@ -218,7 +222,7 @@ const [hiring,setHiring] = useState([
 
         </div>
         </div>
-        
+        <Footer />
     </div>
   )
 }

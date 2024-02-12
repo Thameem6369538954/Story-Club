@@ -7,7 +7,8 @@ import { IoLogoLinkedin } from "react-icons/io5";
 import { BsTwitterX } from "react-icons/bs";
 const Footer = () => {
   return (
-    <div>
+    <div className='footer-bg'>
+      
         <div className="footer">
             <img src={STlogo} alt="" />
             <div>
@@ -19,8 +20,8 @@ const Footer = () => {
                 <li>Membership</li>
               </ul>
               <div class="input-container">
-    <input placeholder="Enter your mail" type="text" class="input" />
-    <span>Subscribe</span>
+    <input placeholder="Enter your mail" type="text" className="input-footer" />
+    <span role='button'>Subscribe</span>
 </div> 
             </div>
             <div>
@@ -35,6 +36,19 @@ const Footer = () => {
             </div>
             
         </div>
+       <div className="footer-line">
+        <div className="ftr-line">
+        </div>
+        <div className="copy-right">
+        <h1>Copyright @ 2024   |   StoryClub</h1>
+        <div className="policy">
+          <p>Privacy Policy</p>
+          <p>Terms & Conditions</p>
+        </div>
+
+        </div>
+
+       </div>
     </div>
   )
 }

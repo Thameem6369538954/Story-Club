@@ -34,7 +34,7 @@ const Navbar = () => {
                 <div className="div-flex-b">
                 <NavLink to='/Hiring'><li>Join Our Storyclub</li></NavLink>
                 {/* <li>Featured Stories</li> */}
-                <li>About Storyclub</li>
+               <NavLink to='/AboutUs'> <li>About Storyclub</li></NavLink>
                 <NavLink to='/StoryGift '><li>Story Gifting</li></NavLink>
                 {/* <li>Workshops/Meetup</li> */}
                 
