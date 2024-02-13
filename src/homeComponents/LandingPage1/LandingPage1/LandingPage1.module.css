@@ -1,6 +1,11 @@
 .landingPage1 {
   width: 100%;
   margin-top: -0.2rem;
+  background-image: url("../../../Images/Hdrbg.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 
 /* section 1 */
