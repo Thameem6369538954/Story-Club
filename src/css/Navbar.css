@@ -4,7 +4,6 @@
   justify-content: space-evenly;
   /* position: absolute;
    */
-  top: 20px;
 }
 .navbar-main button {
   width: 90%;
@@ -107,6 +106,13 @@ nav button {
 }
 
 @media screen and (min-width: 1050px) {
+  .navbar-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20%;
+  }
   .nav-icons {
     display: block;
     z-index: 3;
@@ -123,9 +129,8 @@ nav button {
   .div-flex.b {
   }
   .navbar-main img {
-    /* margin-left: 10%; */
-    margin-top: 30px;
-    width: 15%;
+    padding: auto;
+    width: 35%;
   }
   .close {
     position: absolute;
@@ -166,7 +171,7 @@ nav button {
   .menu {
     background-color: #dc6e66;
     font-size: 40px;
-    margin-top: -120%;
+    /* margin-top: -120%; */
     padding: 10px;
     color: white;
     border-radius: 50%;
@@ -181,7 +186,7 @@ nav button {
     padding: 10px;
     margin-top: 10px;
     font-size: 40px;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     cursor: pointer;
   }
 }

@@ -1,5 +1,5 @@
 .horizontal-scroll-container {
-  width: 200%; /* Set the width of the container */
+  width: 100%; /* Set the width of the container */
   /* Enable horizontal scrolling */
   /* overflow-y: hidden;
   scroll-behavior: smooth;
