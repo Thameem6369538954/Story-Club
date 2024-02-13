@@ -35,7 +35,7 @@ const Navbar = () => {
                 <NavLink to='/Hiring'><li>Join Our Storyclub</li></NavLink>
                 {/* <li>Featured Stories</li> */}
                <NavLink to='/AboutUs'> <li>About Storyclub</li></NavLink>
-                <NavLink to='/StoryGift '><li>Story Gifting</li></NavLink>
+                {/* <NavLink to='/StoryGift '><li>Story Gifting</li></NavLink> */}
                 {/* <li>Workshops/Meetup</li> */}
                 
                 </div>

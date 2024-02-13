@@ -25,7 +25,7 @@ const Hiring = () => {
 
     // Prepare data to be sent via EmailJS
     const emailParams = {
-      toName: "Story Club",
+      toName: "Sir",
       name: name,
       email: email,
       mobileNumber: mobileNumber,
@@ -97,7 +97,8 @@ const Hiring = () => {
 
   const [positionn, setPositionn] = useState("");
   const [open, setOpen] = useState(false);
-  const toggleModel = () => {
+  const toggleModel = (position) => {
+    setPosition(position)
     setOpen(!open);
   };
   const [hiring, setHiring] = useState([
@@ -147,11 +148,12 @@ const Hiring = () => {
           <div className="board-yellow">
             <ul className="hiring-ul">
               <marquee>
-                {" "}
-                <li>Connect With Community | </li>
-                <li>Start Sharing your stories | </li>
-                <li>Welcome the regcognition | </li>
-                <li>As You growth, Join your fearture Profiles </li>
+                <div className="mrq">
+                  <p>Connect With Community | </p>
+                  <p>Start Sharing your stories | </p>
+                  <p>Welcome the regcognition | </p>
+                  <p>As You growth, Join your fearture Profiles </p>
+                </div>
               </marquee>
             </ul>
           </div>
@@ -181,7 +183,7 @@ const Hiring = () => {
                       </div>
                       <div class="flip-card-back">
                         <p class="title">{hir.position}</p>
-                        <button onClick={toggleModel}>Apply Now</button>
+                        <button onClick={()=>toggleModel(hir.position)}>Apply Now</button>
                       </div>
                     </div>
                   </div>
@@ -225,11 +227,7 @@ const Hiring = () => {
                       </div>
                       <div className="input-box-hiring">
                         <SlBriefcase className="icons-for-hiring" />
-                        <input
-                          onChange={(e) => setPosition(e.target.value)}
-                          type="text"
-                          value={positionn}
-                        />
+                        <input name="position" type="text" value={position} />
                       </div>
                     </div>
 

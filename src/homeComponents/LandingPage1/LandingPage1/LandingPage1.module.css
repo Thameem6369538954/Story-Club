@@ -295,6 +295,10 @@ a:hover::after {
     flex-direction: column;
     gap: 2.5rem;
   }
+  .section2Content button {
+    margin-top: -8px;
+    width: 55%;
+  }
   .left {
     top: 5rem;
     left: 5rem;
@@ -365,7 +369,7 @@ a:hover::after {
     width: 12rem;
     font-size: 1rem;
     border: none;
-    background-color: white;
+    /* background-color: white; */
   }
   .slide {
     bottom: 3rem;

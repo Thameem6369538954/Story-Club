@@ -6,6 +6,7 @@ import Workshop from "../homeComponents/Workshop.js";
 import "../css/Home.css";
 import LocomotiveScroll from "locomotive-scroll";
 import Landingpage1 from "../homeComponents/LandingPage1/LandingPage1/LandingPage1.jsx";
+import Landingpage2 from "../homeComponents/LandingPage2/LandingPage2/LandingPage2.jsx"
 
 const Home = () => {
   return (
@@ -13,7 +14,8 @@ const Home = () => {
       <div className="horizontal-scroll-container">
         <div className="horizontal-scroll-content">
           <Landingpage1 />
-          {/* <Connectingpage /> */}
+          <Landingpage2 />
+          
           {/* <Workshop /> */}
         </div>
       </div>
