@@ -1,0 +1,35 @@
+/* Slider.module.css */
+
+.slider-wrapper {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slide {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  font-size: 12px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.slick-dots li.slick-active button {
+  opacity: 1;
+}
