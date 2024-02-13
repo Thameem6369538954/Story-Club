@@ -22,7 +22,7 @@ import { IoPersonOutline } from "react-icons/io5";
 import { TfiEmail } from "react-icons/tfi";
 import { RiContactsBookLine } from "react-icons/ri";
 import { AiOutlineMessage } from "react-icons/ai";
-
+import Navbar from "../../Navbar";
 const AboutUs = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -129,6 +129,7 @@ const AboutUs = () => {
 
   return (
     <div className={styles.container}>
+      <Navbar />
       {/* 1st section */}
       <div className={styles.section1}>
         <div className={styles.left}>

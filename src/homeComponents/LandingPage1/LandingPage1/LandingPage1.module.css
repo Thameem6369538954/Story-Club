@@ -325,11 +325,10 @@ a:hover::after {
 }
 
 @media all and (max-width: 767px) {
-  .landingPage1{
-    height: auto;
-    border: 1px solid red;
+  .landingPage1 {
+    height: 100vh;
+    width: 110vw;
     overflow: hidden;
-
   }
   .section1 {
     width: 100%;
@@ -341,7 +340,9 @@ a:hover::after {
     gap: 2rem;
   }
   .section2Content h1 {
-    font-size: 2.5rem;
+    margin-left: -1rem;
+    font-size: 1.5rem;
+    margin-top: 10px;
   }
   .section2Content button {
     width: 70%;
@@ -350,6 +351,12 @@ a:hover::after {
     display: none;
   }
   .left img {
+    display: none;
+  }
+  .left {
+    display: none;
+  }
+  .right {
     display: none;
   }
   .right img {

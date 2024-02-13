@@ -66,17 +66,19 @@ const Connectingpage = () => {
             <p>Come join our Club</p>
           </div>
           <div className="Connecting-btns">
-            <NavLink to="/StFrstpage">
-              <button>Im a Story Teller </button>
-            </NavLink>
-            <NavLink to="/Swfirstpage">
-              <button>Im a Story Writer </button>
-            </NavLink>
+            <div className="cnct-btns">
+              <NavLink to="/StFrstpage">
+                <button className="btn-connect">Im a Story Teller </button>
+              </NavLink>
+              <NavLink to="/Swfirstpage">
+                <button className="btn-connect">Im a Story Writer </button>
+              </NavLink>
+            </div>
           </div>
-          <div className="connect-images">
-            <img src={StoryWriterB} alt="" />
-            <img src={StorywriterA} alt="" />
-          </div>
+        </div>
+        <div className="connect-images">
+          <img src={StoryWriterB} alt="" />
+          <img src={StorywriterA} alt="" />
         </div>
       </div>
     </>

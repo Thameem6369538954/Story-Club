@@ -223,8 +223,9 @@ a:hover::after {
 }
 @media all and (max-width: 767px) {
   .landingPage2 {
-    height: auto;
-    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+
     overflow: hidden;
   }
   /* section 1 */
@@ -249,5 +250,8 @@ a:hover::after {
   .section2Images {
     margin-top: -4rem;
     display: none;
+  }
+  .section2Content h1 {
+    font-size: 1.1rem;
   }
 }

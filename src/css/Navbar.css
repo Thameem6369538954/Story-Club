@@ -110,7 +110,7 @@ nav button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -2rem;
+    /* margin-top: -2rem; */
     margin-left: 20%;
   }
   .nav-icons {
@@ -121,8 +121,14 @@ nav button {
   .div-flex {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    /* margin-top: 30%; */
+    justify-content: space-between;
+    gap: 10rem;
+    margin-top: -10%;
+  }
+  .div-flex li {
+    display: flex;
+    text-align: left;
+    margin-top: 110px;
   }
   /* .div-flex-a,
   .div-flex.b {
@@ -131,28 +137,24 @@ nav button {
     padding: auto;
     width: 35%;
   }
-  /* .close {
-    position: absolute;
-    color: white;
-    font-size: 40px;
-    margin-left: -9%;
-    z-index: 3;
-  } */
+
   .nav-links {
     display: flex;
     flex-direction: column;
     position: absolute;
-    height: 60vh;
-    width: 100%;
+    height: 100vh;
+    width: 110%;
     background-image: url("../Images/Hdrbg.jpg");
     background-position: center;
     background-size: cover;
-    margin-top: 30%;
+    top: 0%;
     list-style: none;
-    left: -7%;
+    left: -1109%;
+    z-index: 1;
+    border: 1px solid black;
   }
   .nav-links.active {
-    left: -100%;
+    left: -10%;
   }
   .nav-links {
     display: flex;
@@ -160,8 +162,23 @@ nav button {
     justify-content: center;
   }
   .nav-links li {
-    font-size: 30px;
+    font-size: 50px;
     color: black;
+    font-family: "Rakkas";
+    border-bottom: 3px solid #f0ceb5;
+  }
+  .icon-for-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-for-navbar:hover {
+    display: contents;
+  }
+  .nav-links li:hover {
+    border-bottom: 3px solid #dc6e66;
+    color: #dc6e66;
+    background-color: #e7a7a2;
   }
   .menu {
     background-color: #dc6e66;
@@ -173,18 +190,24 @@ nav button {
     cursor: pointer;
   }
   .close {
-    background-color: white;
+    background-color: #dc6e66;
     font-size: 20px;
     /* padding: 10px; */
-    color: #dc6e66;
-    border-radius: 10px;
+    color: white;
+    border-radius: 50px;
     padding: 10px;
-    margin-top: -10px;
-    margin-left: 2%;
+    margin-top: 10px;
+    margin-left: -21%;
     font-size: 40px;
     z-index: 3;
     /* margin-left: 10%; */
     cursor: pointer;
+  }
+  .div-flex-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -207,14 +230,15 @@ nav button {
     display: flex;
     flex-direction: column;
     position: absolute;
-    height: 60vh;
+    height: 100vh;
+    top: -63px;
     width: 100%;
     background-image: url("../Images/Hdrbg.jpg");
     background-position: center;
     background-size: cover;
-    margin-top: 30%;
+    margin-top: 10%;
     list-style: none;
-    left: -7%;
+    left: -200%;
   }
   .nav-links.active {
     left: -100%;
