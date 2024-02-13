@@ -1,189 +1,240 @@
-.full-hiring{
+.full-hiring {
   position: relative;
-  background-image: url('../Images/Hdrbg.jpg');
+  background-image: url("../Images/Hdrbg.jpg");
   background-position: center;
   background-size: cover;
- width: 100%;
- height: 165vh;
-
+  width: 100%;
+  height: 185vh;
 }
 .hiring-ul {
   display: flex;
   background-color: #f5c365;
   padding: 8px;
   width: 95%;
-  margin-top:40px ;
+  margin-top: 40px;
   margin-left: 2%;
   gap: 2rem;
 }
-.hiring-ul li{
+.hiring-ul li {
   list-style: none;
   display: flex;
   gap: 1rem;
-  margin-left:6%;
+  margin-left: 6%;
 }
 .flip-card {
-    background-color: transparent;
-    width: 350px;
-    height: 354px;
-    perspective: 1000px;
-    font-family: sans-serif;
-  }
-  
-  .title {
-    font-size: 1.5em;
-    font-weight: 900;
-    text-align: center;
-    margin: 0;
-  }
+  background-color: transparent;
+  width: 350px;
+  height: 354px;
+  perspective: 1000px;
+  font-family: sans-serif;
+}
 
-  .flip-card-front span{
-    width: 70%;
-    margin-left: 60px;
-    font-family: 'Abel', sans-serif;
-    font-size: 13px;
-    text-align: center;
-  }
-  .flip-card-front img{
-    aspect-ratio: 3/2;
-    object-fit: contain;
-    position: absolute;
-    margin-left: -70px;
-    margin-top: 55%;
-    width: 220px;
-  }
-  .flip-card-front :nth-child(3){
-    width: 220px;
-  }
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  .hiring-haeading h1,p{
+.title {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.flip-card-front span {
+  width: 70%;
+  margin-left: 60px;
+  font-family: "Abel", sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+.flip-card-front img {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  position: absolute;
+  margin-left: -70px;
+  margin-top: 55%;
+  width: 220px;
+}
+.flip-card-front :nth-child(3) {
+  width: 220px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.hiring-haeading h1,
+p {
   margin: 10px;
-  
-  }
-  .hiring-haeading h2{
-    margin: 10px;
-    font-size: 50px;
-    text-align: center;
-  }
-  .flip-card-front, .flip-card-back {
-    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border: 3px dashed black;
-    border-radius: 1rem;
-  }
-.hiring-haeading span{
+}
+.hiring-haeading h2 {
+  margin: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+.flip-card-front,
+.flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 3px dashed black;
+  border-radius: 1rem;
+}
+.hiring-haeading span {
   color: black;
 }
-  .hiring-main-container p{
-   
-    font-family: 'Abel', sans-serif;
-    font-size: 25px;
-    text-align: center;
-  }
-  .flip-card-front {
-    background: linear-gradient(190deg,#EBEBEB 70%, #F6F3EA00 88%,
-       bisque 40%, transparent 78%);
-    color: black;
-  }
-  
-  .flip-card-back {
-    background-color: #DC6E66;
-    transform: rotateY(180deg);
-  }
-  .flip-cart-container{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
-  margin-top: 5%;
-  }
+.hiring-main-container p {
+  font-family: "Abel", sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.flip-card-front {
+  background: linear-gradient(
+    190deg,
+    #ebebeb 70%,
+    #f6f3ea00 88%,
+    bisque 40%,
+    transparent 78%
+  );
+  color: black;
+}
 
-  .hiring-form{
-    position: fixed;
-    background-image: url('../Images/Hdrbg.jpg');
+.flip-card-back {
+  background-color: #dc6e66;
+  transform: rotateY(180deg);
+}
+.flip-cart-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 5%;
+}
+
+.hiring-form {
+  position: fixed;
+  background-image: url("../Images/Hdrbg.jpg");
   background-position: center;
   background-size: cover;
-    height: 90%;
-    padding: 150px;
-    border-radius: 10px;
-    margin-top: -50%;
-    z-index: 3;
-    border: 3px dashed black;
-  }
-  .input-box-hiring{
-   margin: 10px;
+  height: 90%;
+  padding: 150px;
+  border-radius: 10px;
+  margin-top: -50%;
+  z-index: 3;
+  border: 3px dashed black;
+}
+.input-box-hiring {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1rem;
+  border: 1px solid black;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.input-box-hiring input {
+  padding: 6px;
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+}
+.icons-for-hiring {
+  color: white;
+  background-color: #dc6e66;
+  font-size: 30px;
+  height: 30px;
+  width: 40px;
+  border-radius: 50%;
+}
+.hiring-form form {
+  margin-top: 10%;
+}
+.hiring-form form img {
+  width: 200px;
+  padding: 10px;
+  margin-left: 30%;
+  margin-top: -25%;
+}
+.hiring-form form p {
+  font-size: 20px;
+}
+.hiring-form form h5 {
+  margin: 10px;
+  background-color: #f5c365;
+  border-radius: 10px;
+  padding: 7px;
+  font-size: 20px;
+}
+.full-form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hiring-form-closer {
+  margin-left: 78%;
+  margin-top: -10%;
+  position: absolute;
+  border: 1px solid black;
+  font-size: 6px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+.input-box-hiring-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.input-box-hiring-check input {
+  width: 20px;
+}
+.form-btns button {
+  background-color: #dc6e66;
+  border-radius: 50px;
+  padding: 10px;
+  width: 100px;
+  margin-left: 0%;
+  margin-left: 10px;
+}
+.form-btns {
+  margin-left: 38%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .form-btns {
+    margin-left: 8%;
     display: flex;
     align-items: center;
-    justify-content:center;
-    gap: 0.1rem;
-    border:1px solid black;
-    width: 250px;
-    padding: 10px;
-    border-radius: 10px;
-
-
+    width: 100%;
   }
-  .input-box-hiring input{
-    padding: 6px;
-    background-color: transparent;
-    border: none;
-    overflow: hidden;
+  .full-hiring {
+    position: relative;
+    background-image: url("../Images/Hdrbg.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 310vh;
   }
-  .icons-for-hiring {
-    color: white;
-    background-color: #DC6E66;
-    font-size: 30px;
-    height: 30px;
-    width: 40px;
-    border-radius: 50%;
-  }
-  .hiring-form form{
-   margin-top: 10%;
-  }
-  .hiring-form form img{
-    width: 200px;
-    padding: 10px;
-    margin-left: 30%;
-    margin-top: -25%;
-  }
-  .hiring-form form p{
-    font-size: 20px;
-  }
-  .hiring-form form h5{
-    margin: 10px;
-    background-color: #F5C365;
-    border-radius: 10px;
-    padding: 7px;
-    font-size: 20px;
-  }
-  .full-form{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .hiring-form-closer{
-    margin-left: 78%;
-    margin-top: -10%;
+  .hiring-form-closer {
+    margin-left: 53%;
+    margin-top: -24%;
     position: absolute;
     border: 1px solid black;
     font-size: 6px;
@@ -191,171 +242,117 @@
     width: 40px;
     border-radius: 100%;
   }
-  .input-box-hiring-check{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+  .icons-for-hiring {
+    color: white;
+    background-color: #dc6e66;
+    font-size: 30px;
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
   }
-  .input-box-hiring-check input{
-    width: 20px;
+  .hiring-form form p {
+    padding: 0px 20px 0px 20px;
+    width: 200%;
+    font-size: 20px;
+    margin-left: -40%;
   }
-  .form-btns button{
-    background-color: #DC6E66;
-    border-radius: 50px;
+  .hiring-form form h5 {
+    margin-left: -20%;
+    background-color: #f5c365;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 20px;
+    width: 150%;
+  }
+  .hiring-form form img {
+    width: 200px;
     padding: 10px;
-    width: 100px;
-    margin-left: 0%;
-    margin-left: 10px;
+    margin-left: 20%;
+    margin-top: -65%;
+  }
+  .hiring-form {
+    position: fixed;
+    background-image: url("../Images/Hdrbg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: -132%;
+    z-index: 3;
+    border: 3px dashed black;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .full-form {
+    margin-top: 120px;
+  }
+  .form-heading {
+    margin-top: 120px;
+  }
+  .hiring-form-closer {
+    margin-top: 20px;
+    margin-left: 20px;
   }
   .form-btns {
-   
-    margin-left: 38%;
+    margin-left: 8%;
     display: flex;
     align-items: center;
     width: 100%;
   }
- 
-  @media (min-width: 600px) and (max-width: 1024px){
-    .form-btns {
-      margin-left: 8%;
-      display: flex;
-      align-items: center;
-      width: 100%;
+  .hiring-haeading {
+    margin-top: 0;
+    margin-left: 1%;
   }
-    .full-hiring{
-      position: relative;
-      background-image: url('../Images/Hdrbg.jpg');
-      background-position: center;
-      background-size: cover;
-     width: 100%;
-     height: 140vh;
-    
-    }
-    .hiring-form-closer{
-      margin-left: 53%;
-      margin-top: -24%;
-      position: absolute;
-      border: 1px solid black;
-      font-size: 6px;
-      height: 40px;
-      width: 40px;
-      border-radius: 100%;
-    }
-    .icons-for-hiring {
-      color: white;
-      background-color: #DC6E66;
-      font-size: 30px;
-      height: 30px;
-      width: 40px;
-      border-radius: 50%;
-    }
-    .hiring-form form p{
-      padding: 0px 20px 0px 20px;
-      width: 200%;
-      font-size: 20px;
-      margin-left: -40%;
-    }
-    .hiring-form form h5{
-      margin-left: -20%;
-      background-color: #F5C365;
-      border-radius: 10px;
-      padding: 7px;
-      font-size: 20px;
-      width: 150%;
-    }
-    .hiring-form form img{
-      width: 200px;
-      padding: 10px;
-      margin-left: 20%;
-      margin-top: -65%;
-    }
-    .hiring-form{
-      position: fixed;
-        background-image: url('../Images/Hdrbg.jpg');
-      background-position: center;
-      background-size: cover;
-        height: 90%;
-       width: 90%;
-        border-radius: 10px;
-        margin-top: -132%;
-        z-index: 3;
-        border: 3px dashed black;
-      }
-    
+  .hiring-form form p {
+    font-size: 16px;
   }
-
-  @media screen and (max-width:600px) {
-    .full-form{
-      margin-top: 120px;
-    }
-    .form-heading
-    {
-      margin-top: 120px;
-    }
-    .hiring-form-closer{
-      margin-top: 20px;
-      margin-left: 20px;
-    }
-    .form-btns {
-      margin-left: 8%;
-      display: flex;
-      align-items: center;
-      width: 100%;
+  .hiring-ul {
+    position: absolute;
+    display: flex;
+    background-color: #f5c365;
+    padding: 8px;
+    width: 95%;
+    height: 1.5%;
+    margin-top: 178px;
+    margin-left: 2%;
+    gap: 2rem;
   }
-    .hiring-haeading {
-      margin-top: 0;
-      margin-left: 1%;
-  }
-    .hiring-form form p{
-      font-size:16px;
-    }
-    .hiring-ul {
-      position: absolute;
-      display: flex;
-      background-color: #f5c365;
-      padding: 8px;
-      width: 95%;
-      height: 1.5%;
-      margin-top:178px ;
-      margin-left: 2%;
-      gap: 2rem;
-    }
-   .hiring-ul li{
+  .hiring-ul li {
     font-size: 9px;
-   }
-   .full-hiring{
+  }
+  .full-hiring {
     position: relative;
-    background-image: url('../Images/Hdrbg.jpg');
+    background-image: url("../Images/Hdrbg.jpg");
     background-position: center;
     background-size: cover;
-   width: 100%;
-   height: 5vh;
-  
+    width: 100%;
+    height: 350vh;
   }
-    .hiring-form{
-      position: absolute;
-      background-image: url('../Images/Hdrbg.jpg');
+  .hiring-form {
+    position: absolute;
+    background-image: url("../Images/Hdrbg.jpg");
     background-position: center;
     background-size: cover;
     width: 90%;
-      height: 120vh;
-      padding: 10px;
-      border-radius: 10px;
-      margin-top: -30%;
-      z-index: 3;
-      border: 3px dashed black;
-    }
-    .flip-cart-container{
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      gap: 5rem;
-      margin-top: 30%;
-    }
-    .hiring-haeading span {
-      margin-top:310px;
-      color: black;
+    height: 120vh;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -30%;
+    z-index: 3;
+    border: 3px dashed black;
   }
+  .flip-cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 30%;
   }
+  .hiring-haeading span {
+    margin-top: 310px;
+    color: black;
+  }
+}

@@ -1,13 +1,12 @@
-import React,{useRef,useEffect} from 'react'
-import '../css/Connectingpage.css'
-import {NavLink} from 'react-router-dom'
-import Navbar from '../homeComponents/Navbar.js'
-import StorywriterA from '../Images/StorywriterA.png'
-import StoryWriterB from '../Images/StoryWriterB.png'
-import Timeline from './Timeline.js'
+import React, { useRef, useEffect } from "react";
+import "../css/Connectingpage.css";
+import { NavLink } from "react-router-dom";
+import Navbar from "../homeComponents/Navbar.js";
+import StorywriterA from "../Images/StorywriterA.png";
+import StoryWriterB from "../Images/StoryWriterB.png";
+import Timeline from "./Timeline.js";
 
 const Connectingpage = () => {
-
   const h1Ref = useRef(null);
   const pRef = useRef(null);
 
@@ -39,47 +38,49 @@ const Connectingpage = () => {
 
   return (
     <>
-    <div className="time-line-header" id='connect'>
-
-
-    <div className="st-tellbg">
-      <div className="nav-sani">
-
-      <Navbar />
-      </div>
-      
-    <div className='story-tell-main-full'>
-       
-        <div className="story-tell-main">
-        <ul className='navbar-ul'>
-
-          <marquee>     <div className='mrq'>  <span>Connect With Community |  </span>
-                    <span>Start Sharing your stories |  </span>
-                    <span>Welcome the regcognition |  </span>
-                    <span>As You growth, Join your fearture Profiles  </span></div>   
-                    </marquee>  
-                </ul>
-                <div className="section2Content-a" style={{width:"60%" , margin:"auto"} }>
-            <h1 className='animations' ref={h1Ref}>Connecting <br></br> Story Writers and Story Tellers !</h1>
-            <p>Come join our Club</p>
-
-                </div>
-            <div className="Connecting-btns">
-            <NavLink to='/StFrstpage'><button>Im a Story Teller </button></NavLink>
-            <NavLink to='/Swfirstpage'><button>Im a Story Writer  </button></NavLink> 
-            
-            </div>
-            <div className="connect-images">
-                <img src={StoryWriterB} alt="" />
-                <img src={StorywriterA} alt="" />
-            </div>
+      <div className="c-f">
+        <div className="nav-sani">
+          <Navbar />
         </div>
 
-    </div>
-    </div>
-    </div>
-</>
-  )
-}
+        <div className="story-tell-main">
+          <ul className="navbar-ul">
+            <marquee>
+              {" "}
+              <div className="mrq">
+                {" "}
+                <span>Connect With Community | </span>
+                <span>Start sharing your stories | </span>
+                <span>Welcome the recognition | </span>
+                <span>As You growth, Join your featured profiles </span>
+              </div>
+            </marquee>
+          </ul>
+          <div
+            className="section2Content-a"
+            style={{ width: "60%", margin: "auto" }}
+          >
+            <h1 className="animations" ref={h1Ref}>
+              Connecting <br></br> Story Writers and Story Tellers !
+            </h1>
+            <p>Come join our Club</p>
+          </div>
+          <div className="Connecting-btns">
+            <NavLink to="/StFrstpage">
+              <button>Im a Story Teller </button>
+            </NavLink>
+            <NavLink to="/Swfirstpage">
+              <button>Im a Story Writer </button>
+            </NavLink>
+          </div>
+          <div className="connect-images">
+            <img src={StoryWriterB} alt="" />
+            <img src={StorywriterA} alt="" />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default Connectingpage
+export default Connectingpage;

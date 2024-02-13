@@ -1,29 +1,29 @@
-.navbar-main{
+.navbar-main {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   /* position: absolute;
-   */top: 20px;
+   */
+  top: 20px;
 }
-.navbar-main button{
+.navbar-main button {
   width: 90%;
   z-index: 99;
 }
 
-nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-    margin-left: 0%;
-    z-index: 3;
-    gap: -1rem;
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 0%;
+  z-index: 3;
+  gap: -1rem;
 }
-.navbar-main img{
-/* margin-left: 10%; */
+.navbar-main img {
+  /* margin-left: 10%; */
   margin-top: 30px;
-  width:15%;
-
+  width: 15%;
 }
 .input-container {
   position: relative;
@@ -31,7 +31,7 @@ nav{
   align-items: center;
   z-index: 1;
 }
-nav button{
+nav button {
   background-color: #fcf0e7;
   /* padding: 10px; */
   border-radius: 10px;
@@ -44,14 +44,13 @@ nav button{
   height: 13px;
   border-radius: 10px;
   border: none;
-  
+
   outline: none;
   padding: 18px 16px;
   background-color: transparent;
   cursor: pointer;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   z-index: 1;
-
 }
 
 .input::placeholder {
@@ -62,7 +61,8 @@ nav button{
   color: rgb(131, 128, 128);
 }
 
-.input:focus,.input:not(:placeholder-shown) {
+.input:focus,
+.input:not(:placeholder-shown) {
   background-color: #fff;
   border: 1px solid #dc6e66;
   width: 290px;
@@ -79,102 +79,101 @@ nav button{
   background-color: #fff;
   border-radius: 10px;
   z-index: -1;
-  fill:#dc6e66;
+  fill: #dc6e66;
   border: 1px solid #dc6e66;
 }
 
 .input:hover + .icon {
   transform: rotate(360deg);
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
-.input:focus + .icon,.input:not(:placeholder-shown) + .icon {
+.input:focus + .icon,
+.input:not(:placeholder-shown) + .icon {
   z-index: 0;
   background-color: transparent;
   border: none;
 }
-.nav-links{
+.nav-links {
   display: flex;
   list-style: none;
   gap: 2rem;
 }
-.nav-links li{
+.nav-links li {
   color: white;
 }
-.nav-icons{
+.nav-icons {
   display: none;
 }
 
-@media screen and (min-width:1050px) {
-  .nav-icons{
+@media screen and (min-width: 1050px) {
+  .nav-icons {
     display: block;
     z-index: 3;
     margin-left: 25px;
   }
-  .div-flex{
+  .div-flex {
     margin-top: -10%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 12rem;
   }
-  .div-flex-a, .div-flex.b{
-  
+  .div-flex-a,
+  .div-flex.b {
   }
-  .navbar-main img{
+  .navbar-main img {
     /* margin-left: 10%; */
-      margin-top: 30px;
-      width:15%;
-    
-    }
-  .close{
+    margin-top: 30px;
+    width: 15%;
+  }
+  .close {
     position: absolute;
     color: white;
     font-size: 40px;
     margin-left: -9%;
   }
-  .nav-links{
+  .nav-links {
     display: flex;
     flex-direction: column;
     position: absolute;
     top: -10px;
-    height: 120vh;
+    height: 100vh;
     width: 100%;
-    background-image: url('../Images/Hdrbg.jpg');
+    background-image: url("../Images/Hdrbg.jpg");
     background-position: center;
     background-size: cover;
     z-index: 3;
     list-style: none;
     /* gap: 2rem; */
     left: -1200%;
-    
   }
-  .nav-links.active{
+  .nav-links.active {
     position: absolute;
     left: -100%;
   }
   .nav-links {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin-left: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100%;
   }
-  .nav-links li{
-  margin-top: 60px;
-  font-size: 30px;
-  color: black;
+  .nav-links li {
+    margin-top: 60px;
+    font-size: 30px;
+    color: black;
   }
-  .menu{
+  .menu {
     background-color: #dc6e66;
     font-size: 40px;
     margin-top: -120%;
-   padding: 10px;
+    padding: 10px;
     color: white;
     border-radius: 50%;
     cursor: pointer;
   }
-  .close{
-    background-color:white  ;
+  .close {
+    background-color: white;
     font-size: 20px;
     /* padding: 10px; */
     color: #dc6e66;
@@ -187,29 +186,29 @@ nav button{
   }
 }
 
-@media screen and (max-width:600px){
-  .nav-icons{
+@media screen and (max-width: 600px) {
+  .nav-icons {
     display: block;
     z-index: 3;
     margin-left: 15px;
   }
-  .close{
+  .close {
     position: absolute;
     color: white;
     font-size: 40px;
     margin-left: -9%;
   }
-  .nav-links li{
+  .nav-links li {
     text-align: left;
   }
-  .nav-links{
+  .nav-links {
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 10px;
     height: 100vh;
     width: 100%;
-    background-image: url('../Images//Navimage.jpg');
+    background-image: url("../Images//Navimage.jpg");
     background-position: center;
     background-size: cover;
     z-index: 3;
@@ -218,34 +217,33 @@ nav button{
     left: -1200%;
     transition: 2ms;
   }
-  .nav-links.active{
+  .nav-links.active {
     position: absolute;
     left: -100%;
   }
   .nav-links {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin-left: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100%;
   }
-  .nav-links li{
-  margin-top: 40px;
+  .nav-links li {
+    margin-top: 40px;
   }
-  .menu{
+  .menu {
     background-color: #dc6e66;
     font-size: 40px;
 
-   padding: 10px;
+    padding: 10px;
     color: white;
     border-radius: 50%;
     margin-top: -90%;
     cursor: pointer;
-    
   }
-  .close{
+  .close {
     width: 31px;
     height: 31px;
-    background-color:white  ;
+    background-color: white;
     font-size: 30px;
     /* padding: 10px; */
     color: #dc6e66;
@@ -253,21 +251,19 @@ nav button{
     margin-top: -1%;
     margin-left: 3%;
   }
-  .navbar-main img{
+  .navbar-main img {
     width: 112px;
     height: 55px;
-    
   }
-
 }
-@media (min-width: 601px) and (max-width: 1024px){
-  .navbar-main img{
+@media (min-width: 601px) and (max-width: 1024px) {
+  .navbar-main img {
     width: 112px;
     height: 55px;
     margin-top: 65%;
     margin-left: 19%;
   }
-  .navbar-main button{
+  .navbar-main button {
     background-color: #fcf0e7;
     /* padding: 10px; */
     border-radius: 10px;
@@ -277,12 +273,12 @@ nav button{
     margin-left: -22%;
     border: 1px solid #dc6e66;
   }
-  .nav-icons{
+  .nav-icons {
     display: block;
     z-index: 3;
     margin-left: 25px;
   }
-  .div-flex{
+  .div-flex {
     margin-top: -30%;
     display: flex;
     align-items: center;
@@ -290,15 +286,14 @@ nav button{
     gap: 12rem;
   }
 
-  
-  .nav-links{
+  .nav-links {
     display: flex;
     flex-direction: column;
     position: absolute;
     top: -10px;
     height: 120vh;
     width: 100%;
-    background-image: url('../Images/Hdrbg.jpg');
+    background-image: url("../Images/Hdrbg.jpg");
     background-position: center;
     background-size: cover;
     z-index: 3;
@@ -307,32 +302,32 @@ nav button{
     left: -1200%;
     transition: 2s;
   }
-  .nav-links.active{
+  .nav-links.active {
     position: absolute;
     left: -100%;
   }
   .nav-links {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin-left: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100%;
   }
-  .nav-links li{
-  margin-top: 60px;
-  font-size: 30px;
-  color: black;
+  .nav-links li {
+    margin-top: 60px;
+    font-size: 30px;
+    color: black;
   }
-  .menu{
+  .menu {
     background-color: #dc6e66;
     font-size: 40px;
 
-   padding: 10px;
+    padding: 10px;
     color: white;
     border-radius: 50%;
     margin-top: -10%;
   }
-  .close{
-    background-color:white  ;
+  .close {
+    background-color: white;
     font-size: 20px;
     /* padding: 10px; */
     color: #dc6e66;
@@ -341,11 +336,10 @@ nav button{
     font-size: 40px;
     margin-left: -90%;
   }
-  .navbar-main{
+  .navbar-main {
     display: flex;
     align-items: center;
-   gap: 20rem;
-    /* position: absolute;
-     */top: 20px;
+    justify-content: center;
+    gap: 20rem;
   }
 }
