@@ -1,0 +1,10 @@
+.scroll-content {
+  display: flex;
+  width: 200%;
+}
+@media screen and (max-width: 600px) {
+  .scroll-content {
+    width: 220%;
+    overflow-y: hidden;
+  }
+}

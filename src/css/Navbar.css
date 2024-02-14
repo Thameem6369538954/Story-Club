@@ -238,17 +238,17 @@ nav button {
     background-size: cover;
     margin-top: 10%;
     list-style: none;
-    left: -200%;
+    left: -250%;
   }
   .nav-links.active {
     left: -100%;
   }
-  .nav-links {
+  /* .nav-links {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 100%;
-  }
+  } */
   .nav-links li {
     margin-top: 40px;
     color: red;

@@ -8,6 +8,7 @@ import manideep from "./Images/section2/manideep.png";
 import joice from "./Images/section2/joice.png";
 import styles from "./AboutUs.module.css";
 import { FaPlay } from "react-icons/fa";
+import Footer from "../../Footer.js";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -43,12 +44,12 @@ const AboutUs = () => {
       position: "Senior Content Writer",
       image: anam,
     },
-    {
-      id: 3,
-      name: "Manideep Kumar",
-      position: "Web Developer",
-      image: manideep,
-    },
+    // {
+    //   id: 3,
+    //   name: "Manideep Kumar",
+    //   position: "Web Developer",
+    //   image: manideep,
+    // },
     {
       id: 4,
       name: "Joice Lincey",
@@ -343,6 +344,7 @@ const AboutUs = () => {
           </button>
         </div>
       </form>
+      <Footer />
     </div>
   );
 };

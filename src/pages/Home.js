@@ -10,44 +10,44 @@ import Landingpage2 from "../homeComponents/LandingPage2/LandingPage2/LandingPag
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 // import styles from "../css/Home.model.css";
 const Home = () => {
-  const sliderRef = useRef(null);
+  const sectionRef = useRef(null);
+  const triggerRef = useRef(null);
+  gsap.registerPlugin(ScrollTrigger);
 
   useEffect(() => {
-    const handleScroll = (e) => {
-      const slider = sliderRef.current;
-      if (!slider) return;
-
-      if (e.deltaY > 0) {
-        slider.slickNext();
-      } else if (e.deltaY < 0) {
-        slider.slickPrev();
+    const pin = gsap.fromTo(
+      sectionRef.current,
+      {
+        translateX: 0,
+      },
+      {
+        translateX: "-200vh",
+        ease: "none",
+        duration: 1,
+        scrollTrigger: {
+          trigger: triggerRef.current,
+          start: "top top",
+          end: "100 top",
+          scrub: 0.6,
+          pin: true,
+        },
       }
-    };
-
-    window.addEventListener("wheel", handleScroll);
+    );
 
     return () => {
-      window.removeEventListener("wheel", handleScroll);
+      pin.kill();
     };
   }, []);
 
-  const settings = {
-    // dots: true,
-    // infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    // vertical: false, // Set to false to enable horizontal sliding
-    // verticalSwiping: false, // Set to false to enable horizontal swiping
-  };
-
   return (
     <div>
-      <div className="scroll-container">
-        <div className="scroll-content">
-          {/* <Header /> */}
+      <div className="scroll-container" ref={triggerRef}>
+        <div className="scroll-content" ref={sectionRef}>
+          <Header />
           <Connectingpage />
         </div>
       </div>
