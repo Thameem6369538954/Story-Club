@@ -44,24 +44,54 @@ const AboutUs = () => {
       position: "Senior Content Writer",
       image: anam,
     },
-    // {
-    //   id: 3,
-    //   name: "Manideep Kumar",
-    //   position: "Web Developer",
-    //   image: manideep,
-    // },
+    {
+      id: 3,
+      name: "Dhinesh",
+      position: "Graphich Designer",
+      image: require("../../../Images/team-08.jpg"),
+    },
     {
       id: 4,
       name: "Joice Lincey",
       position: "Digital Marketing specialist",
       image: joice,
     },
-    // {
-    //   id: 5,
-    //   name: "Mahesh",
-    //   position: "Founder of Story Club",
-    //   image: leftImg,
-    // },
+    {
+      id: 5,
+      name: "Dhanasekar",
+      position: "Steck Artist",
+      image: require("../../../Images/team-07.jpg"),
+    },
+    {
+      id: 6,
+      name: "Shanker",
+      position: "Illustrator",
+      image: require("../../../Images/team-05.jpg"),
+    },
+    {
+      id: 7,
+      name: "Ajay",
+      position: "Video Editer",
+      image: require("../../../Images/team-06.jpg"),
+    },
+    {
+      id: 8,
+      name: "Yashavantha",
+      position: "FrondEnd Developer",
+      image: require("../../../Images/yash.jpg"),
+    },
+    {
+      id: 9,
+      name: "Harris",
+      position: "UI/UX Designer",
+      image: require("../../../Images/harris.jpg"),
+    },
+    {
+      id: 10,
+      name: "Alisha",
+      position: "Backend Developer",
+      image: require("../../../Images/alisha.jpg"),
+    },
   ];
   const NextArrow = ({ onClick }) => (
     <button
@@ -196,7 +226,7 @@ const AboutUs = () => {
                 />
                 <div>
                   <h3>{employee.name}</h3>
-                  <p>Position: {employee.position}</p>
+                  <p>{employee.position}</p>
                 </div>
               </div>
             ))}

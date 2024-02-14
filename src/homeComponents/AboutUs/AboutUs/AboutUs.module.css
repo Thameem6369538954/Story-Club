@@ -3,6 +3,9 @@ body {
   margin: 0;
   background-image: url("../../../Images/Hdrbg.jpg");
 }
+.sliderItem img {
+  border-radius: 50%;
+}
 .full-abut {
   background-image: url("../../../Images/Hdrbg.jpg");
   background-position: center;
