@@ -2,6 +2,7 @@
   margin-bottom: 30px;
   width: 100%;
 }
+
 .c-f {
   /* position: relative; */
   background-image: url("../Images/Hdrbg.jpg");
@@ -366,9 +367,10 @@
   }
   .story-tell-main h1 {
     /* position: absolute; */
-    margin-top: -120%;
-    margin-left: 10%;
-    font-size: 29px;
+    margin-top: -115%;
+    width: 89%;
+    margin-left: 7%;
+    font-size: 31px;
     font-family: "Rakkas";
   }
   .story-tell-main p {

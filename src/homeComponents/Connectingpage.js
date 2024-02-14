@@ -58,7 +58,7 @@ const Connectingpage = () => {
           </ul>
           <div
             className="section2Content-a"
-            style={{ width: "60%", margin: "auto" }}
+            
           >
             <h1 className="animations" ref={h1Ref}>
               Connecting Story Writers With Story Tellers !
