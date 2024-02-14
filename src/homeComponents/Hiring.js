@@ -98,7 +98,7 @@ const Hiring = () => {
   const [positionn, setPositionn] = useState("");
   const [open, setOpen] = useState(false);
   const toggleModel = (position) => {
-    setPosition(position)
+    setPosition(position);
     setOpen(!open);
   };
   const [hiring, setHiring] = useState([
@@ -126,12 +126,12 @@ const Hiring = () => {
       jd: "Join Mentoons as an Anchor, where you'll connect with our audience through YouTube videos and social media Your role includes introducing new products and conducting insightful interviews with experts. We seek excellent communication skills, video hosting experience, and a passion for our mission. Familiarity with LinkedIn, Facebook, Instagram, and Pinterest is a plus. We embrace diversity and are proud to be an equal opportunity employer. Ready to make learning fun and easy? Apply now and let's explore potential together! ",
       image: require("../Images/blogprev4.png"),
     },
-    {
-      id: 5,
-      position: "Content Writer",
-      jd: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      image: require("../Images/blogprev2.png"),
-    },
+    // {
+    //   id: 5,
+    //   position: "Content Writer",
+    //   jd: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+    //   image: require("../Images/blogprev2.png"),
+    // },
     {
       id: 6,
       position: "Backend Developer",
@@ -162,7 +162,7 @@ const Hiring = () => {
             <h2>Join StoryClub!</h2>
             <div>
               <iframe
-              className="Hiring-video"
+                className="Hiring-video"
                 title="Embedded Video"
                 src="https://drive.google.com/file/d/1pjUV9cyiHr5VJFEdd-2cz2pZPlvsrL_f/preview"
                 // width="100%"
@@ -200,7 +200,6 @@ const Hiring = () => {
             })}
             {open && (
               <div className="hiring-form">
-                
                 <AiOutlineClose
                   role="button"
                   onClick={toggleModel}

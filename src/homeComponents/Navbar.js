@@ -60,12 +60,12 @@ const Navbar = () => {
                     <FaArrowRight className="icon-for-navbar" />
                   </li>
                 </NavLink>
-                <NavLink to="/AboutUs">
+                {/* <NavLink to="/AboutUs">
                   {" "}
                   <li>
                     About Storyclub <FaArrowRight className="icon-for-navbar" />
                   </li>
-                </NavLink>
+                </NavLink> */}
                 {/* <NavLink to='/StoryGift '><li>Story Gifting</li></NavLink> */}
                 {/* <li>Workshops/Meetup</li> */}
               </div>
