@@ -46,16 +46,17 @@ const AboutUs = () => {
     },
     {
       id: 3,
-      name: "Dhinesh",
-      position: "Graphich Designer",
-      image: require("../../../Images/team-08.jpg"),
-    },
-    {
-      id: 4,
       name: "Joice Lincey",
       position: "Digital Marketing specialist",
       image: joice,
     },
+    {
+      id: 4,
+      name: "Dhinesh",
+      position: "Graphich Designer",
+      image: require("../../../Images/team-08.jpg"),
+    },
+
     {
       id: 5,
       name: "Dhanasekar",

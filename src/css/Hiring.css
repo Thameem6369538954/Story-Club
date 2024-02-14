@@ -217,7 +217,10 @@ p {
   width: 100%;
 }
 
-@media (min-width: 820px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hiring-form form {
+    margin-top: 35%;
+  }
   .form-btns {
     margin-left: 8%;
     display: flex;
@@ -233,8 +236,8 @@ p {
     height: 160vh;
   }
   .hiring-form-closer {
-    margin-left: 53%;
-    margin-top: -24%;
+    margin-left: 59%;
+    margin-top: -14%;
     position: absolute;
     border: 1px solid black;
     font-size: 6px;
@@ -275,10 +278,10 @@ p {
     background-image: url("../Images/Hdrbg.jpg");
     background-position: center;
     background-size: cover;
-    height: 90%;
+    height: 85%;
     width: 90%;
     border-radius: 10px;
-    margin-top: -132%;
+    margin-top: -332%;
     z-index: 3;
     border: 3px dashed black;
   }

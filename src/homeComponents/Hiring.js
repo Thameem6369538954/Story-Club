@@ -200,6 +200,7 @@ const Hiring = () => {
             })}
             {open && (
               <div className="hiring-form">
+                
                 <AiOutlineClose
                   role="button"
                   onClick={toggleModel}
