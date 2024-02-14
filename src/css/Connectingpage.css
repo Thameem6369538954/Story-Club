@@ -7,10 +7,10 @@
   background-image: url("../Images/Hdrbg.jpg");
   background-position: center;
   background-size: cover;
-  width: 100%;
+  width: 200%;
   height: 100vh;
-  margin-top: -3%;
-  margin-left: 35%;
+  margin-top: -1%;
+  margin-left: 40%;
 }
 /* .story-tell-main-full {
   display: flex;
@@ -164,6 +164,9 @@
   margin-top: -16%;
 }
 @media screen and (max-width: 600px) {
+  body {
+    overflow-y: hidden;
+  }
   .nav-sani {
     width: 100%;
   }
@@ -172,9 +175,9 @@
     /* background-image: url("../Images/Hdrbg.jpg");
     background-position: center;
     background-size: cover; */
-    width: 250%;
-    height: 100vh;
-    margin-left: 23%;
+    width: 200%;
+    height: 400vh;
+    margin-left: 24%;
     /* margin-right: -120%; */
   }
   .story-tell-main {

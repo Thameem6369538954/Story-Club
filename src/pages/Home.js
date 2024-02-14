@@ -30,8 +30,8 @@ const Home = () => {
         duration: 1,
         scrollTrigger: {
           trigger: triggerRef.current,
-          start: "top top",
-          end: "100 top",
+          start: "100 top",
+          end: "top top",
           scrub: 0.6,
           pin: true,
         },
@@ -42,7 +42,6 @@ const Home = () => {
       pin.kill();
     };
   }, []);
-
   return (
     <div>
       <div className="scroll-container" ref={triggerRef}>

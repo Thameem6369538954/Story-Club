@@ -1,0 +1,16 @@
+.horizontal-scroll-container {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.horizontal-scroll-content {
+  display: inline-block;
+}
+
+.scrollable-component {
+  display: inline-block;
+  width: 300px; /* Adjust the width of your scrollable components */
+  height: 200px; /* Adjust the height of your scrollable components */
+  margin-right: 10px; /* Adjust the margin between scrollable components */
+}

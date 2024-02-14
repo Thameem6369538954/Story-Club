@@ -130,7 +130,7 @@ const Header = () => {
 
         <div className="two-header-btns"></div>
       </div>
-      
+      <div className="cont"></div>
     </div>
   );
 };
