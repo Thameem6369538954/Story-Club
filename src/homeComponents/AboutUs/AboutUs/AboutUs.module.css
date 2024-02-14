@@ -1,13 +1,24 @@
 /* section 1 */
 body {
   margin: 0;
+  background-image: url("../../../Images/Hdrbg.jpg");
+}
+.full-abut {
+  background-image: url("../../../Images/Hdrbg.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 .section1 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 6.5rem;
 }
-
+h1 {
+  font-family: "Rakkas";
+  font-size: 20px;
+}
 .left {
   display: flex;
   align-items: flex-end;

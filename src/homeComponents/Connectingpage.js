@@ -61,7 +61,7 @@ const Connectingpage = () => {
             style={{ width: "60%", margin: "auto" }}
           >
             <h1 className="animations" ref={h1Ref}>
-              Connecting <br></br> Story Writers and Story Tellers !
+              Connecting Story Writers With Story Tellers !
             </h1>
             <p>Come join our Club</p>
           </div>
