@@ -1,19 +1,28 @@
-.greeting-main{
-    height: 100vh;
-    width: 100%;
-       background-image: url('../../Images/Hdrbg.jpg');
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.greeting-main {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../Images/Hdrbg.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.greeting-main h1{
-    font-size: 40px;
+.greeting-main h1 {
+  font-size: 40px;
 }
-@media screen and (max-width:600px){
-    .greeting-main h1{
-        font-size: 20px;
-    }
+@media screen and (max-width: 600px) {
+  .greeting-main h1 {
+    font-size: 20px;
+  }
+  .greeting-main img {
+    margin-top: -20%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .greeting-main img {
+    width: 300px;
+  }
 }

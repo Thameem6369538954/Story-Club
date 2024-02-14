@@ -220,10 +220,10 @@
     position: absolute;
   }
   .stsecond-main-conatainer img {
-    width: 300px;
+    width: 200%;
     height: 50%;
-    margin-top: 10px;
-    margin-left: 35%;
+    margin-top: -50px;
+    margin-left: 5%;
   }
   .st-two-btns button {
     background-color: #f4dcd1;
