@@ -14,41 +14,51 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 // import styles from "../css/Home.model.css";
 const Home = () => {
-  const sectionRef = useRef(null);
-  const triggerRef = useRef(null);
-  gsap.registerPlugin(ScrollTrigger);
+  const sliderRef = useRef(null);
 
   useEffect(() => {
-    const pin = gsap.fromTo(
-      sectionRef.current,
-      {
-        translateX: 0,
-      },
-      {
-        translateX: "-200vh",
-        ease: "none",
-        duration: 1,
-        scrollTrigger: {
-          trigger: triggerRef.current,
-          start: "100 top",
-          end: "top top",
-          scrub: 0.6,
-          pin: true,
-        },
+    const handleScroll = (e) => {
+      const slider = sliderRef.current;
+      if (!slider) return;
+
+      if (e.deltaY > 0) {
+        slider.slickNext();
+      } else if (e.deltaY < 0) {
+        slider.slickPrev();
       }
-    );
+    };
+
+    window.addEventListener("wheel", handleScroll);
 
     return () => {
-      pin.kill();
+      window.removeEventListener("wheel", handleScroll);
     };
   }, []);
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    vertical: false,
+    verticalSwiping: false,
+  };
+
   return (
     <div>
-      <div className="scroll-container" ref={triggerRef}>
-        <div className="scroll-content" ref={sectionRef}>
-          <Header />
-          <Connectingpage />
-        </div>
+      <div className="sliderWrapper">
+        <Slider ref={sliderRef} {...settings}>
+          <div className="slide">
+            <Header />
+          </div>
+          <div className="slide">
+            <Connectingpage />
+          </div>
+          {/* <div className="slide">
+          <LandingPage1 />
+        </div> */}
+        </Slider>
       </div>
     </div>
   );

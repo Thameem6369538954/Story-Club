@@ -315,9 +315,13 @@ p {
     padding: 8px;
     width: 95%;
     height: 2.5%;
-    margin-top: 178px;
+    margin-top: 250px;
     margin-left: 2%;
     gap: 2rem;
+  }
+  .Hiring-video {
+    margin: auto;
+    border-radius: 10px;
   }
   .hiring-ul li {
     font-size: 9px;

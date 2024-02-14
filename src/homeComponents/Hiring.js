@@ -160,11 +160,17 @@ const Hiring = () => {
 
           <div className="hiring-haeading">
             <h2>Join StoryClub!</h2>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim{" "}
-            </span>
+            <div>
+              <iframe
+              className="Hiring-video"
+                title="Embedded Video"
+                src="https://drive.google.com/file/d/1pjUV9cyiHr5VJFEdd-2cz2pZPlvsrL_f/preview"
+                // width="100%"
+                // height="400"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
           <div className="flip-cart-container">
             {hiring.map((hir, inx) => {
@@ -183,7 +189,9 @@ const Hiring = () => {
                       </div>
                       <div class="flip-card-back">
                         <p class="title">{hir.position}</p>
-                        <button onClick={()=>toggleModel(hir.position)}>Apply Now</button>
+                        <button onClick={() => toggleModel(hir.position)}>
+                          Apply Now
+                        </button>
                       </div>
                     </div>
                   </div>
