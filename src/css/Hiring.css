@@ -132,8 +132,8 @@ p {
     background-image: url("../Images/Hdrbg.jpg");
     background-position: center;
     background-size: cover;
-    width: 90%;
-    height: 100vh;
+    width: 100%;
+    height: 150vh;
   }
 
   .Hiring-video {
@@ -143,8 +143,8 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-  .full-form {
-    margin-top: 120px;
+  .full-form form {
+    margin-top: auto;
   }
   .form-heading {
     margin-top: 120px;

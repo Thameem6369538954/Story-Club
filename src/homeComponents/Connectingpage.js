@@ -56,12 +56,9 @@ const Connectingpage = () => {
               </div>
             </marquee>
           </ul>
-          <div
-            className="section2Content-a"
-            
-          >
+          <div className="section2Content-a">
             <h1 className="animations" ref={h1Ref}>
-              Connecting Story Writers With Story Tellers !
+              Connecting Story Writers  With Story Tellers !
             </h1>
             <p>Come join our Club</p>
           </div>

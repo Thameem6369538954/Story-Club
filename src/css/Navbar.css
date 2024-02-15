@@ -2,8 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  /* position: absolute;
-   */
+
 }
 .navbar-main button {
   width: 90%;
@@ -166,15 +165,26 @@ nav button {
     color: black;
     font-family: "Rakkas";
     border-bottom: 3px solid #f0ceb5;
+    display: flex;
+    width: 100%;
+    gap: 3rem;
   }
   .icon-for-navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: none;
+    color: #dc6e66;
+    margin-top: 10px;
   }
-  .icon-for-navbar:hover {
-    display: contents;
+  li:hover .icon-for-navbar {
+    display: block;
   }
+  /* .icon-for-navbar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .icon-for-navbar:hover {
+      display: contents;
+    } */
   .nav-links li:hover {
     border-bottom: 3px solid #dc6e66;
     color: #dc6e66;

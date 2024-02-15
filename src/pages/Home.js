@@ -37,8 +37,8 @@ const Home = () => {
 
   const settings = {
     dots: true,
-    infinite: true,
-    speed: 500,
+    infinite: false,
+    speed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
     vertical: false,
@@ -56,6 +56,9 @@ const Home = () => {
             <div className="slide">
               <Connectingpage />
             </div>
+            {/* <div className="slide">
+              <Connectingpage />
+            </div> */}
             {/* <div className="slide">
           <LandingPage1 />
         </div> */}

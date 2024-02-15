@@ -58,68 +58,66 @@ const Hiring = () => {
     },
   ]);
   return (
-    <div>
-      <div className="full-hiring">
-        <Navbar />
+    <div className="full-hiring">
+      <Navbar />
 
-        <div className="hiring-main-container">
-          <div className="board-yellow">
-            <ul className="hiring-ul">
-              <marquee>
-                <div className="mrq">
-                  <p>Connect With Community | </p>
-                  <p>Start Sharing your stories | </p>
-                  <p>Welcome the regcognition | </p>
-                  <p>As You growth, Join your fearture Profiles </p>
-                </div>
-              </marquee>
-            </ul>
-          </div>
+      <div className="hiring-main-container">
+        <div className="board-yellow">
+          <ul className="hiring-ul">
+            <marquee>
+              <div className="mrq">
+                <p>Connect With Community | </p>
+                <p>Start Sharing your stories | </p>
+                <p>Welcome the regcognition | </p>
+                <p>As You growth, Join your fearture Profiles </p>
+              </div>
+            </marquee>
+          </ul>
+        </div>
 
-          <div className="hiring-haeading">
-            <h2>Join StoryClub!</h2>
-            <div>
-              <iframe
-                className="Hiring-video"
-                title="Embedded Video"
-                src="https://drive.google.com/file/d/1pjUV9cyiHr5VJFEdd-2cz2pZPlvsrL_f/preview"
-                // width="100%"
-                // height="400"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-              ></iframe>
-            </div>
+        <div className="hiring-haeading">
+          <h2>Join StoryClub!</h2>
+          <div>
+            <iframe
+              className="Hiring-video"
+              title="Embedded Video"
+              src="https://drive.google.com/file/d/1pjUV9cyiHr5VJFEdd-2cz2pZPlvsrL_f/preview"
+              // width="100%"
+              // height="400"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+            ></iframe>
           </div>
-          <div className="flip-cart-container">
-            {hiring.map((hir, inx) => {
-              return (
-                <div>
-                  <div
-                    class="flip-card"
-                    key={inx}
-                    onClick={() => setPositionn(hir.position)}
-                  >
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <p class="title">{hir.position}</p>
-                        <span>{hir.jd}</span>
-                        <img src={hir.image} alt="" />
-                      </div>
-                      <div class="flip-card-back">
-                        <p class="title">{hir.position}</p>
-                        <button onClick={() => navigate("/HiringForm")}>
-                          Apply Now
-                        </button>
-                      </div>
+        </div>
+        <div className="flip-cart-container">
+          {hiring.map((hir, inx) => {
+            return (
+              <div>
+                <div
+                  class="flip-card"
+                  key={inx}
+                  onClick={() => setPositionn(hir.position)}
+                >
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <p class="title">{hir.position}</p>
+                      <span>{hir.jd}</span>
+                      <img src={hir.image} alt="" />
+                    </div>
+                    <div class="flip-card-back">
+                      <p class="title">{hir.position}</p>
+                      <button onClick={() => navigate("/HiringForm")}>
+                        Apply Now
+                      </button>
                     </div>
                   </div>
                 </div>
-              );
-            })}
-          </div>
+              </div>
+            );
+          })}
         </div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 };
