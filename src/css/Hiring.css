@@ -232,12 +232,12 @@ p {
     width: 100%;
   }
   .full-hiring {
-    position: relative;
+  
     background-image: url("../Images/Hdrbg.jpg");
     background-position: center;
     background-size: cover;
     width: 90%;
-    height: 260vh;
+    height: 100vh;
   }
   .hiring-form-closer {
     margin-left: 59%;

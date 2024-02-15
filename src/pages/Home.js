@@ -47,18 +47,20 @@ const Home = () => {
 
   return (
     <div>
-      <div className="sliderWrapper">
-        <Slider ref={sliderRef} {...settings}>
-          <div className="slide">
-            <Header />
-          </div>
-          <div className="slide">
-            <Connectingpage />
-          </div>
-          {/* <div className="slide">
+      <div className="slide-main">
+        <div className="sliderWrapper">
+          <Slider ref={sliderRef} {...settings}>
+            <div className="slide">
+              <Header />
+            </div>
+            <div className="slide">
+              <Connectingpage />
+            </div>
+            {/* <div className="slide">
           <LandingPage1 />
         </div> */}
-        </Slider>
+          </Slider>
+        </div>
       </div>
     </div>
   );
