@@ -3,6 +3,7 @@ import Connectingpage from "./homeComponents/Connectingpage.js";
 import Workshop from "./homeComponents/Workshop.js";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Formgreeting from "./homeComponents/Formgreeting.js";
 import HiringForm from "./homeComponents/HiringForm.js";
 import StFrstpage from "./StorytellerComponents/StA/StFrstpage.js";
 import Stsecondpage from "./StorytellerComponents/StB/Stsecondpage.js";
@@ -27,6 +28,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/Formgreeting" element={<Formgreeting />} />
           <Route path="/HiringForm" element={<HiringForm />} />
           <Route path="/Aboutus" element={<Aboutus />} />
           <Route path="/StoryGift" element={<StoryGift />} />

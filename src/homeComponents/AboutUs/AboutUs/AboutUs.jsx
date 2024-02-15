@@ -53,14 +53,14 @@ const AboutUs = () => {
     {
       id: 4,
       name: "Dhinesh",
-      position: "Graphich Designer",
+      position: "Graphic Designer",
       image: require("../../../Images/team-08.jpg"),
     },
 
     {
       id: 5,
       name: "Dhanasekar",
-      position: "Steck Artist",
+      position: "Sketch Artist",
       image: require("../../../Images/team-07.jpg"),
     },
     {
@@ -72,13 +72,13 @@ const AboutUs = () => {
     {
       id: 7,
       name: "Ajay",
-      position: "Video Editer",
+      position: "Video Editor",
       image: require("../../../Images/team-06.jpg"),
     },
     {
       id: 8,
       name: "Yashavantha",
-      position: "FrondEnd Developer",
+      position: "FrontEnd Developer",
       image: require("../../../Images/yash.jpg"),
     },
     {
@@ -89,7 +89,7 @@ const AboutUs = () => {
     },
     {
       id: 10,
-      name: "Alisha",
+      name: "Aleeshya",
       position: "Backend Developer",
       image: require("../../../Images/alisha.jpg"),
     },

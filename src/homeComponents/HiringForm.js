@@ -12,7 +12,7 @@ import Footer from "../homeComponents/Footer.js";
 import emailjs from "emailjs-com";
 import axios from "axios";
 
-const HiringForm = ({data}) => {
+const HiringForm = ({ data }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [mobileNumber, setMobileNumber] = useState("");
@@ -169,11 +169,12 @@ const HiringForm = ({data}) => {
           </div>
           <div className="form-btns">
             <button type="cancel">Cancel</button>
-            <NavLink to="/Greeting">
+            <NavLink to="/Formgreeting">
               <button type="submit">Send</button>
             </NavLink>
           </div>
         </form>
+       
       </div>
     </div>
   );
