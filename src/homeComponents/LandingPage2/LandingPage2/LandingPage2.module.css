@@ -104,13 +104,15 @@
 }
 
 .section2Content h1 {
-  text-align: center;
+  /* text-align: center; */
   text-transform: uppercase;
   font-family: Rakkas;
   font-size: 40px;
   letter-spacing: 0.2rem;
   color: #333;
   margin: -0.4rem 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .section2Content p {

@@ -283,8 +283,8 @@ const Hiring = () => {
             )}
           </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };

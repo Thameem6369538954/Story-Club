@@ -1,196 +1,197 @@
-.footer-bg{
-    background: #010101;
-background: linear-gradient(0deg, #010101, #373836);
-width: 100%;
-height: 50vh;
-
+.footer-bg {
+  background: #010101;
+  background: linear-gradient(0deg, #010101, #373836);
+  width: 100%;
+  height: 50vh;
 }
 
-.footer{
-    /*
+.footer {
+  /*
 * Created with https://www.css-gradient.com
 * Gradient link: https://www.css-gradient.com/?c1=010101&c2=373836&gt=l&gd=dbb
 */
 
-display: flex;
-align-items: center;
-justify-content: space-around;
-padding-top: 60px;
-
-
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 60px;
 }
-.footer img{
-    width: 300px;
+.footer img {
+  width: 300px;
 }
-.footer p{
-    text-align: center;
-    color: white;
+.footer p {
+  text-align: center;
+  color: white;
 }
 
-.icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    gap: 1rem;
-    font-size: 25px;
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  gap: 1rem;
+  font-size: 25px;
 }
-.x,.fbf,.inst,.link{
-    height: 40px;
-    width: 40px;
-    background-color: #d5645c;
-    border: 2px solid white;
-    border-radius: 50px;
-    padding: 8px;
+.x,
+.fbf,
+.inst,
+.link {
+  height: 40px;
+  width: 40px;
+  background-color: #d5645c;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 8px;
 }
-.footer-list{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    gap: 2rem;
+.footer-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  gap: 2rem;
 }
-.footer-list li{
-    color: white;
+.footer-list li {
+  color: white;
 }
-.copy-right h1{
-    color: white;
+.copy-right h1 {
+  color: white;
 }
-.input-container{
-    margin: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 70%;
-    border: 1px solid silver;
-    border-radius: 20px;
+.input-container {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  border: 1px solid silver;
+  border-radius: 20px;
 }
-.copy-right{
-    display: flex;
-    align-items: center;
-    justify-content: space-around; 
-    gap: 27rem;
+.copy-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 27rem;
 }
-.policy{
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
+.policy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.policy p{
-    color: white;
+.policy p {
+  color: white;
 }
-.input-container span{
-    color:white;
-    background-color: #d5645c;
-    padding: 13px;
-    border-radius: 20px;
+.input-container span {
+  color: white;
+  background-color: #d5645c;
+  padding: 13px;
+  border-radius: 20px;
 }
-.ftr-line{
-    border-bottom: 2px solid white;
-    margin-left: 10%;
-    width: 80%;
+.ftr-line {
+  border-bottom: 2px solid white;
+  margin-left: 10%;
+  width: 80%;
 }
 /* .input-container input::placeholder{
     text-align: center;
     color: gray;
 } */
-.input-footer{
-    padding: 15px;
-    width: 100%;
-    border-radius: 10px 10px 10px 10px;
-    background-color: transparent;
+.input-footer {
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  background-color: transparent;
 }
-.footer-line{
-    margin-top: 90px;
+.footer-line {
+  margin-top: 90px;
 }
-@media screen and (max-width:600px) {
-    .footer{
-        /*
+@media screen and (max-width: 600px) {
+  .footer {
+    /*
     * Created with https://www.css-gradient.com
     * Gradient link: https://www.css-gradient.com/?c1=010101&c2=373836&gt=l&gd=dbb
     */
-    
+
     display: flex;
     flex-direction: column;
-   gap: 2rem;
+    gap: 2rem;
     align-items: center;
     justify-content: space-around;
     padding-top: 60px;
-    
-    
-    }
-    .footer-bg{
-        background: #010101;
+  }
+  .footer-bg {
+    background: #010101;
     background: linear-gradient(0deg, #010101, #373836);
     width: 100%;
     height: 110vh;
-    
-    }
-    .copy-right{
-        display: flex;
-        align-items: center;
-        justify-content: center; 
-        gap: 2rem;
-    }
-    .input-footer{
-        padding: 15px;
-        margin-left: 10px;
-        width: 100%;
-        border-radius: 10px 10px 10px 10px;
-        background-color: transparent;
-    }
-    .footer-list{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-        gap: 2rem;
-    }
-    .footer-list li{
-        color: white;
-    }
-    .copy-right{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: space-around; 
-       
-    }
-    .policy{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between; 
-    }
-  
+  }
+  .copy-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .input-footer {
+    padding: 15px;
+    margin-left: 10px;
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: transparent;
+  }
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 2rem;
+  }
+  .footer-list li {
+    color: white;
+  }
+  .copy-right {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .policy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
-@media (min-width: 600px) and (max-width: 1024px){
-    .footer img{
-        width: 150px;
-    }
- 
-    .input-container{
-        margin: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 60%;
-        border: 1px solid silver;
-        border-radius: 20px;
-    }
-    .footer-list{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-        gap: 1rem;
-    }
-    .copy-right {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        /* gap: 27rem; */
-    }
+@media (min-width: 600px) and (max-width: 1024px) {
+  .footer img {
+    width: 150px;
+  }
+
+  .input-container {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    border: 1px solid silver;
+    border-radius: 20px;
+  }
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 1rem;
+  }
+  .copy-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 27rem; */
+  }
+  .footer-bg {
+    background: #010101;
+    background: linear-gradient(0deg, #010101, #373836);
+    width: 110%;
+    height: 50vh;
+  }
 }
