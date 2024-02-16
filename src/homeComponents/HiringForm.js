@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "../css/HiringForm.css";
 import { AiOutlineClose } from "react-icons/ai";
 import { IoPerson } from "react-icons/io5";
@@ -11,12 +11,14 @@ import { NavLink, useNavigate } from "react-router-dom";
 import Footer from "../homeComponents/Footer.js";
 import emailjs from "emailjs-com";
 import axios from "axios";
+import { AuthContext } from "../Context/AuthContext.jsx";
 
 const HiringForm = ({ data }) => {
+  const { position } = useContext(AuthContext);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [mobileNumber, setMobileNumber] = useState("");
-  const [position, setPosition] = useState("");
+  // const [position, setPosition] = useState("");
   const [pdf1Link, setPdf1Link] = useState("");
   const [pdf2Link, setPdf2Link] = useState("");
 
@@ -169,12 +171,10 @@ const HiringForm = ({ data }) => {
           </div>
           <div className="form-btns">
             <button type="cancel">Cancel</button>
-            <NavLink to="/Formgreeting">
-              <button type="submit">Send</button>
-            </NavLink>
+
+            <button type="submit">Send</button>
           </div>
         </form>
-       
       </div>
     </div>
   );

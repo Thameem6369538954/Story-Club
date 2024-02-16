@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "../css/Hiring.css";
 import Navbar from "./Navbar";
 import { AiOutlineClose } from "react-icons/ai";
@@ -11,8 +11,10 @@ import STlogo from "../Images/STlogo.png";
 import { NavLink, useNavigate } from "react-router-dom";
 import Footer from "../homeComponents/Footer.js";
 import emailjs from "emailjs-com";
+import { AuthContext } from "../Context/AuthContext.jsx";
 
 const Hiring = () => {
+  const { setPosition } = useContext(AuthContext);
   const navigate = useNavigate();
   const [positionn, setPositionn] = useState("");
   // const [open, setOpen] = useState(false);
@@ -96,7 +98,7 @@ const Hiring = () => {
                 <div
                   class="flip-card"
                   key={inx}
-                  onClick={() => setPositionn(hir.position)}
+                  onClick={() => setPosition(hir.position)}
                 >
                   <div class="flip-card-inner">
                     <div class="flip-card-front">

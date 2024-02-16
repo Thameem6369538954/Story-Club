@@ -1,17 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+import AuthcontextProvider from "./Context/AuthContext";
 // ..
 AOS.init();
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <AuthcontextProvider>
+      <App />
+    </AuthcontextProvider>
   </React.StrictMode>
 );
 

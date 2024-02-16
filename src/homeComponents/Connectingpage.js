@@ -53,7 +53,7 @@ const Connectingpage = () => {
                 <span>Start sharing your stories | </span>
                 <span>Welcome the recognition | </span>
                 <span>As You growth, Join your featured profiles </span>
-              </div>
+              </div>  
             </marquee>
           </ul>
           <div className="section2Content-a">
